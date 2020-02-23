@@ -1,0 +1,15 @@
+---
+title: "Mathematics Courses"
+output:
+  html_document:
+    toc_float: false
+    includes:
+      before_body: [include_header.html, include_lessons_nav.html]
+      after_body: [include_lessons_nav_end.html, include_footer.html]
+---
+
+### Regulations
+
+
+***
+## [HIT 122: Mathematics For Technologists II](hit122.html){.continue-link}
