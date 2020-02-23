@@ -1,0 +1,26 @@
+---
+title: "HIT 122: Mathematics For Technologists II"
+output:
+  html_document:
+    toc_float: false
+    includes:
+      before_body: [include_header.html, include_lessons_nav.html]
+      after_body: [include_lessons_nav_end.html, include_footer.html]
+---
+### Course Content
+(@) Linear Algebera
+(@) Ordinary Differential Equations
+(@) Vector Calculus
+(@) Laplace Transforms
+
+### Worksheets
+#### 2019
+[Worksheet 1 (2019)](https://drive.google.com/file/d/1QqQITzFhzlM4vkRXTLAVYAdOmQDvzbQB/view?usp=sharing)
+
+### Tests
+
+### Past Examinations
+
+
+***
+## [ISS 126: Number Theory](lesson-3.html){.continue-link}
