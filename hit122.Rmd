@@ -7,6 +7,13 @@ output:
       before_body: [include_header.html, include_lessons_nav.html]
       after_body: [include_lessons_nav_end.html, include_footer.html]
 ---
+
+Assessment shall comprise of 4 in class tests, one assignment and an end of semester examination. The end of semester examination counts 75%, and the continuous assessment counts 25% towards the final mark. Only those who score an average of 50% in the 4 tests will be allowed to write the end of semester 
+examination. All tests and the exam are mandatory. Discuss any potential conflicts well before the test/exam date.
+
+For the detailed Course Outline click the link below:
+[Course Outline](https://drive.google.com/open?id=1n_ke-u-6ycHlVj-Rmmlev3IhWfQcGbg8)
+
 ### Course Content
 (@) Linear Algebera
 (@) Ordinary Differential Equations
@@ -14,12 +21,16 @@ output:
 (@) Laplace Transforms
 
 ### Worksheets
+
 #### 2019
+
 [Worksheet 1 (2019)](https://drive.google.com/file/d/1QqQITzFhzlM4vkRXTLAVYAdOmQDvzbQB/view?usp=sharing)
 
 ### Tests
 
 ### Past Examinations
+
+[Examination (2018)](https://drive.google.com/open?id=1s15c_IJ54QyOlM_Sak4a23tvsxnOD3Vj)
 
 
 ***
