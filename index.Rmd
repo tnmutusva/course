@@ -37,7 +37,7 @@ $("#pageContent").removeClass("standardPadding");
        </div>
       </div>
     </div>
-    <img class="imageTwo" src="images/trhit.png"/>
+    <img class="imageTwo" src="dna.png" width="100px"/>
   </div>
 
   <div class="band full third rightText">
