@@ -1,0 +1,22 @@
+---
+title: "Mathematics Courses"
+output:
+  html_document:
+    toc_float: false
+    includes:
+      before_body: [include_header.html, include_lessons_nav.html]
+      after_body: [include_lessons_nav_end.html, include_footer.html]
+---
+
+### Regulations
+
+(@) Normally, assessment shall be based on continuous assessment as well as Institute examina- tions. For subjects with a practical component continuous assessment contributes 40% of the overall assessment mark for that particular subject. The 40% will be a summation of 25% for practical work assessment and 15% for tests and assignments. The examination will contrib- ute 60% of the overall assessment mark. For subjects without a practical component the con- tinuous assessment will contribute 25% of the overall assessment mark of that subject.
+
+(@) The Pass Mark for the overall Continuous Assessment Component will be 50%.
+
+(@) To be admitted to any Institute examination, a candidate must have passed continuous assessment of the relevant course as prescribed by the School Regulations.
+
+***
+### [HIT 122: Mathematics For Technologists II](hit122.html){.continue-link}
+### [ISS 126: Number Theory](iss126.html){.continue-link}
+### [ICS 225: Numerical Anaysis](ics225.html){.continue-link}
