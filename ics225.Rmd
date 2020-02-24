@@ -1,0 +1,41 @@
+---
+title: "ICS 225: Numerical Analysis"
+output:
+  html_document:
+    toc_float: false
+    includes:
+      before_body: [include_header.html, include_lessons_nav.html]
+      after_body: [include_lessons_nav_end.html, include_footer.html]
+---
+
+Assessment shall comprise of 3 in class tests, one assignment and an end of semester examination. The end of semester examination counts 75%, and the continuous assessment counts 25% towards the final mark. Only those who score an average of 50% in the 3 tests will be allowed to write the end of semester 
+examination. All tests and the exam are mandatory. Discuss any potential conflicts well before the test/exam date.
+
+### Course Content
+
+For the detailed Course Outline click the link below:
+
+
+
+### Worksheets
+
+
+#### 2020
+
+#### 2019
+
+
+
+
+### Tests
+
+#### 2019
+
+
+
+### Past Examinations
+
+
+
+***
+
