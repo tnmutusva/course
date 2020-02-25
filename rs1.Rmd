@@ -38,4 +38,6 @@ Then use the command
 eigen(A,only.value=TRUE)
 ```
 
+***
+Trevor. N. Mutusva, February 2020.
 
