@@ -231,9 +231,9 @@ $(".main-container").removeClass("main-container").removeClass("container-fluid"
 
 <div id="eigenvalues-and-eigenvectors" class="section level2">
 <h2>Eigenvalues and Eigenvectors</h2>
-<p>Let <span class="math inline"><em>A</em></span> be an <span class="math inline"><em>n</em> × <em>n</em></span> matrix, <span class="math inline"><em>I</em><sub><em>n</em></sub></span> the identity <span class="math inline"><em>n</em> × <em>n</em></span> matrix and <span class="math inline"><em>λ</em><em>I</em><sub><em>n</em></sub></span> the diagonal with <span class="math inline"><em>λ</em></span>-scalar. Then <span class="math inline"><em>A</em> − <em>λ</em><em>I</em><sub><em>n</em></sub></span> is an <span class="math inline"><em>n</em> × <em>n</em></span> matrix and the determinant <span class="math inline">|<em>A</em> − <em>λ</em><em>I</em><sub><em>n</em></sub>|</span> is a polynomial which we denote by <span class="math inline"><em>P</em><sub><em>N</em></sub>(<em>λ</em>).</span> <span class="math inline"><em>P</em><sub><em>N</em></sub>(<em>λ</em>)</span> is called the characteristic polynomial of <span class="math inline"><em>A</em></span>. The roots of <span class="math inline"><em>P</em><sub><em>N</em></sub>(<em>λ</em>)</span> are called eigenvalues of <span class="math inline"><em>A</em></span>.</p>
-<p><img src="rs1.png" /></p>
-<p>First enter the matrix</p>
+<p><img src="1.png" /> <img src="2.png" /></p>
+<p><img src="3.png" /></p>
+<p>To find the eigenvalues using R,first enter the matrix</p>
 <pre class="r"><code>A&lt;-matrix(c(1,0,16,6),nrow=2,ncol=2,byrow=TRUE)</code></pre>
 <p>Then use the command</p>
 <pre class="r"><code>eigen(A,only.value=TRUE)</code></pre>
