@@ -1,5 +1,5 @@
 ---
-title: "Trevor Mutusva"
+title: "HIT Mathematics"
 output:
   html_document:
     toc_float: false
