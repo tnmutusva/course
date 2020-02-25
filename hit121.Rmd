@@ -24,24 +24,20 @@ examination. All tests and the exam are mandatory. Discuss any potential conflic
 (@) Ordinary Differential Equations
 (@) Vector Calculus
 (@) Laplace Transforms
-For the detailed Course Outline click the link below:
 
-[Course Outline]
 
 ### Worksheets
 
 
-#### 2020
+#### **2020**
 
-#### 2019
+#### **2019**
 
-[Worksheet 2 (2019)]
+#### **2018**
 
-[Worksheet 3 (2019)]
+[Worksheet  (2018)](https://drive.google.com/open?id=1oLNr8FYGHDIXHHfsGQBJLDx35hla-aVJ)
 
-[Worksheet 4 (2019)]
 
-[Worksheet 5 (2019)]
 
 
 
@@ -49,10 +45,13 @@ For the detailed Course Outline click the link below:
 
 #### 2019
 
-[Test 1 (2019)]
+#### **2018**
 
-[Test 2 (2019)]
+[Linear Algebra Test](https://drive.google.com/file/d/1FOcgTUQv08dgWXtC3Zoq6R3__7fHsYYs/view?usp=sharing)
 
+[ODEs Test 1](https://drive.google.com/open?id=1uAwM8HfCnV6Uvo6vlF4vYz7Lse-MVa-c)
+
+[Vector Calculus Test](https://drive.google.com/open?id=1rYNJ4RqZ_itoWrO290HCZBan6uKJU6w2)
 
 
 ### Past Examinations
