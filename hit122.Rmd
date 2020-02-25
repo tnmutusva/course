@@ -7,7 +7,7 @@ output:
       before_body: [include_header.html, include_lessons_nav.html]
       after_body: [include_lessons_nav_end.html, include_footer.html]
 ---
-Lecturer: T. Mutusva
+Lecturer: **T. Mutusva**
 
 Office  : W16
 
@@ -28,6 +28,8 @@ For the detailed Course Outline click the link below:
 (@) Ordinary Differential Equations
 (@) Vector Calculus
 (@) Laplace Transforms
+
+[ Linear Algebra Notes](rs1.html){.continue-link}
 
 ### Worksheets
 
