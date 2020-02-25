@@ -25,6 +25,13 @@ examination. All tests and the exam are mandatory. Discuss any potential conflic
 (@) Vector Calculus
 (@) Laplace Transforms
 
+### Lecture Notes
+
+[Linear Algebra I](https://drive.google.com/file/d/1djpop6x1BY1wN7lPyhQRthUcFcjGxJwL/view?usp=sharing)
+
+[Linear Algebra II](https://drive.google.com/file/d/1wtGffPnOoLBvV5tZgAkNUJ6pw5QxxdAs/view?usp=sharing)
+
+[Laplace Transforms](https://drive.google.com/file/d/1feoB6yBJ9zSPkRDRn_ec2XDMwue1LDcC/view?usp=sharing)
 
 ### Worksheets
 
@@ -43,15 +50,17 @@ examination. All tests and the exam are mandatory. Discuss any potential conflic
 
 ### Tests
 
-#### 2019
+#### **2019**
+
+[Supplementary Test (2019)](https://drive.google.com/file/d/1n5QvKQ_YdXv6vsyZGn3-zBP3ereTqAwe/view?usp=sharing)
 
 #### **2018**
 
-[Linear Algebra Test](https://drive.google.com/file/d/1FOcgTUQv08dgWXtC3Zoq6R3__7fHsYYs/view?usp=sharing)
+[Linear Algebra Test (2018)](https://drive.google.com/file/d/1FOcgTUQv08dgWXtC3Zoq6R3__7fHsYYs/view?usp=sharing)
 
-[ODEs Test 1](https://drive.google.com/open?id=1uAwM8HfCnV6Uvo6vlF4vYz7Lse-MVa-c)
+[ODEs Test 1 (2018)](https://drive.google.com/open?id=1uAwM8HfCnV6Uvo6vlF4vYz7Lse-MVa-c)
 
-[Vector Calculus Test](https://drive.google.com/open?id=1rYNJ4RqZ_itoWrO290HCZBan6uKJU6w2)
+[Vector Calculus Test (2018)](https://drive.google.com/open?id=1rYNJ4RqZ_itoWrO290HCZBan6uKJU6w2)
 
 
 ### Past Examinations
