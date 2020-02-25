@@ -62,4 +62,5 @@ For the detailed Course Outline click the link below:
 
 
 ***
-## [ISS 126: Number Theory](iss126.html){.continue-link}
+### [ISS 126: Number Theory](iss126.html){.continue-link}
+### [ICS 226/ISE 225: Numerical Analysis](ics225.html){.continue-link}
