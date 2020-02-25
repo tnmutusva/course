@@ -17,6 +17,7 @@ output:
 (@) To be admitted to any Institute examination, a candidate must have passed continuous assessment of the relevant course as prescribed by the School Regulations.
 
 ***
+### [HIT 121: Engineering Mathematics II](hit121.html){.continue-link}
 ### [HIT 122: Mathematics For Technologists II](hit122.html){.continue-link}
 ### [ISS 126: Number Theory](iss126.html){.continue-link}
-### [ICS 225: Numerical Anaysis](ics225.html){.continue-link}
+### [ICS 226/ISE 225: Numerical Analysis](ics225.html){.continue-link}
