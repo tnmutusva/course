@@ -8,7 +8,7 @@ output:
       after_body: [include_lessons_nav_end.html, include_footer.html]
 ---
 
-Lecturer: K Mutangi
+Lecturer: **K Mutangi**
 
 Office  : W16
 
