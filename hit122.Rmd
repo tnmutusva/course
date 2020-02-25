@@ -62,4 +62,4 @@ For the detailed Course Outline click the link below:
 
 
 ***
-## [ISS 126: Number Theory](lesson-3.html){.continue-link}
+## [ISS 126: Number Theory](iss126.html){.continue-link}
