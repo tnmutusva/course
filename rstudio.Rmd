@@ -15,4 +15,5 @@ RStudio is available in **open source** and **commercial** editions and runs on 
 
 
 ***
+##### [Rstudio: Linear Algebra](rs1.html){.continue-link}
 
