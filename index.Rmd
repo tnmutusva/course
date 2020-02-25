@@ -31,7 +31,7 @@ $("#pageContent").removeClass("standardPadding");
     <div class="bandContent vCenter">
       <div class="blurb">
         <div>Mathematics Courses:
-        <div> <a id="nav-lesson-21" href="hit121.html">HIT 122: Engineering Mathematics  II</a> </div>
+        <div> <a id="nav-lesson-21" href="hit121.html">HIT 121: Engineering Mathematics  II</a> </div>
         <div> <a id="nav-lesson-2" href="hit122.html">HIT 122: Mathematics For Technologists II</a> </div>
         <div> <a id="nav-lesson-3" href="iss126.html">ISS 126: Number Theory</a> </div>
         <div> <a id="nav-lesson-4" href="ics225.html">ICS 225: Numerical Analysis</a> </div>
