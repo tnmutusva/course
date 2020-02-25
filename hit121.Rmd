@@ -1,0 +1,65 @@
+---
+title: "HIT 121: Engineering Mathematics II"
+output:
+  html_document:
+    toc_float: false
+    includes:
+      before_body: [include_header.html, include_lessons_nav.html]
+      after_body: [include_lessons_nav_end.html, include_footer.html]
+---
+
+Lecturer: K Mutangi
+
+Office  : W16
+
+Email   : kmutangi@gmail.com
+
+Phone   : +263242 741428-30 Ext 2372
+
+Assessment shall comprise of 4 in class tests and an end of semester examination. The end of semester examination counts 75%, and the continuous assessment counts 25% towards the final mark. Only those who score an average of 50% in the 3 tests will be allowed to write the end of semester 
+examination. All tests and the exam are mandatory. Discuss any potential conflicts well before the test/exam date.
+
+### Course Content
+(@) Linear Algebera
+(@) Ordinary Differential Equations
+(@) Vector Calculus
+(@) Laplace Transforms
+For the detailed Course Outline click the link below:
+
+[Course Outline]
+
+### Worksheets
+
+
+#### 2020
+
+#### 2019
+
+[Worksheet 2 (2019)]
+
+[Worksheet 3 (2019)]
+
+[Worksheet 4 (2019)]
+
+[Worksheet 5 (2019)]
+
+
+
+### Tests
+
+#### 2019
+
+[Test 1 (2019)]
+
+[Test 2 (2019)]
+
+
+
+### Past Examinations
+
+
+
+***
+### [HIT 122: Mathematics For Technologists II](hit122.html){.continue-link}
+### [ISS 126: Number Theory](iss126.html){.continue-link}
+### [ICS 226/ISE 225: Numerical Analysis](ics225.html){.continue-link}
