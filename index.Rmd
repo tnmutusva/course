@@ -45,11 +45,15 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 
 # **Mathematics Courses**
 
-### [HIT 121: Engineering Mathematics  II](hit121.html)
 
-### [HIT 122: Mathematics For Technologists II](hit122.html)
-
-### [ISS 126: Number Theory](iss126.html)
-
-### [ICS 226/ISE 225: Numerical Analysis](ics225.html)
+<div>
+  
+  <a href="hit121.html/">HIT 121: Engineering Mathematics  II</a>
+  
+  <a href="hit122.html/">HIT 122: Mathematics For Technologists II</a>
+  
+  <a href="iss126.html/">ISS 126: Number Theory</a>
+  
+  <a href="ics225.html/">ICS 226/ISE 225: Numerical Analysis</a>
+</div>
   
