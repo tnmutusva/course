@@ -7,14 +7,18 @@ output:
       before_body: [include_header.html, include_lessons_nav.html]
       after_body: [include_lessons_nav_end.html, include_footer.html]
 ---
-
-Lecturer: O. Mhlanga
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+Lecturer: **Mr. O. Mhlanga**
 
 Office  : W17
 
 Email   : omhlanga@hit.ac.zw
 
 Phone   : +263242 741428-30 Ext 2372
+</div>
 
 Assessment shall comprise of 3 in class tests, one assignment and an end of semester examination. The end of semester examination counts 75%, and the continuous assessment counts 25% towards the final mark. Only those who score an average of 50% in the 3 tests will be allowed to write the end of semester 
 examination. All tests and the exam are mandatory. Discuss any potential conflicts well before the test/exam date.
