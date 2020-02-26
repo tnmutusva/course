@@ -19,19 +19,43 @@ Phone   : +263242 741428-30 Ext 2372
 Assessment shall comprise of 4 in class tests and an end of semester examination. The end of semester examination counts 75%, and the continuous assessment counts 25% towards the final mark. Only those who score an average of 50% in the 3 tests will be allowed to write the end of semester 
 examination. All tests and the exam are mandatory. Discuss any potential conflicts well before the test/exam date.
 
+
 ### Course Content
 (@) Linear Algebera
 (@) Ordinary Differential Equations
 (@) Vector Calculus
 (@) Laplace Transforms
 
+[Course Outline (pdf)](https://drive.google.com/file/d/1YTM2qJU8BMlOpyXgHQxKCzXpT6_iHT0F/view?usp=sharing)
+
 ### Lecture Notes
 
+<div class = "row">
+  
+<div class = "col-md-4">
+<br><br>
 [Linear Algebra I](https://drive.google.com/file/d/1djpop6x1BY1wN7lPyhQRthUcFcjGxJwL/view?usp=sharing)
-
+<br><br>
 [Linear Algebra II](https://drive.google.com/file/d/1wtGffPnOoLBvV5tZgAkNUJ6pw5QxxdAs/view?usp=sharing)
+</div>
+  
 
+
+<div class = "col-md-4">
+<br><br>
 [Laplace Transforms](https://drive.google.com/file/d/1feoB6yBJ9zSPkRDRn_ec2XDMwue1LDcC/view?usp=sharing)
+<br><br>
+[Ordinary Differential Equations I](https://drive.google.com/file/d/1YT8uUMDoNXOC0_B0VOKAGCAntD8KKCUo/view?usp=sharing)
+</div>  
+
+<div class = "col-md-4">
+<br><br>
+[Ordinary Differential Equations II](https://drive.google.com/file/d/1ZgyyM8xoNpQIhZgidEiHnwgkkaXGxEUs/view?usp=sharing)
+<br><br>
+[Ordinary Differential Equations III](https://drive.google.com/file/d/1epZNoi3RZFoSmJxAZ9ZteXXCoVncA8ME/view?usp=sharing)
+</div>
+</div>
+
 
 ### Worksheets
 
@@ -64,6 +88,8 @@ examination. All tests and the exam are mandatory. Discuss any potential conflic
 
 
 ### Past Examinations
+
+
 
 
 
