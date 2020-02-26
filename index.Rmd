@@ -48,7 +48,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 
 <div>
   
-  <a href="hit121.html">HIT 121: Engineering Mathematics  II</a>
+  <a href="hit121.html">HIT 121: Engineering Mathematics  IIa</a>
   
   <a href="hit122.html">HIT 122: Mathematics For Technologists II</a>
   
