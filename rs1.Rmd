@@ -10,7 +10,7 @@ output:
       before_body:
       - include_header.html
       - include_rstudio_nav.html
-    toc_float: no
+  
 ---
 
 
