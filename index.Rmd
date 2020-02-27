@@ -37,7 +37,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
  <ul>
      <li> Date: Thursday 12 March 2020</li>
      <li> Time: 14:00</li>
-     <li> Venue: N4</li>
+     <li> Venue: S101</li>
   </ul>
 </ol>
 </div>
