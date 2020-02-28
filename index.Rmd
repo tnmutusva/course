@@ -8,7 +8,7 @@ output:
       after_body: [include_lessons_nav_end.html, include_footer.html]
 ---
 
-# HIT Mathematics
+# [HIT Mathematics](mathsc.html)
 Assessment shall be based on continuous assessment as well as Institute examinations. Continuous assessment will contribute 25% of the overall assessment mark of that course. Continuous assessment dates are as follows:
 
 ```{r echo=FALSE}
@@ -21,3 +21,4 @@ kable(T1) %>%
 ```
 
 *** 
+
