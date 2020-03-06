@@ -35,6 +35,13 @@ For the detailed Course Outline click the link below:
 
 [Course Outline](https://drive.google.com/file/d/1gRTrf3kjfqblpQ1RVNrUjAJ5WVIR0GMB/view?usp=sharing)
 
+***
+
+### Lecture Notes
+
+[Sieve of Eratosthenes](https://spark.adobe.com/page/OBBCMVGXaKuOX/)
+
+***
 ### Worksheets
 
 
@@ -53,7 +60,7 @@ For the detailed Course Outline click the link below:
 [Worksheet 5 (2019)](https://drive.google.com/open?id=1FBWHWO7qFAVjMFiMs8h1H1okjYaQmbxQ)
 
 
-
+***
 ### Tests
 
 #### 2019
@@ -66,6 +73,7 @@ For the detailed Course Outline click the link below:
 
 [Test 3 (2019)](https://drive.google.com/open?id=1614w6gezFliBBdhgXC5GXmTF6zifH7jO)
 
+***
 ### Past Examinations
 
 [Examination (2018)](https://drive.google.com/open?id=1614w6gezFliBBdhgXC5GXmTF6zifH7jO)
