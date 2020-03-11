@@ -9,7 +9,7 @@ output:
 ---
 
 # [HIT Mathematics](mathsc.html)
-Assessment shall be based on continuous assessment as well as Institute examinations. Continuous assessment will contribute 25% of the overall assessment mark of that course. Continuous assessment dates are as follows:
+[Click here](mathsc.html) to go to the courses page. Assessment for the courses shall be based on continuous assessment as well as Institute examinations. Continuous assessment will contribute 25% of the overall assessment mark of that course. Continuous assessment dates are as follows:
 
 ```{r echo=FALSE}
 library(readxl)
@@ -23,4 +23,11 @@ footnote( symbol = c("Only students who attend tutorials will be allowed to writ
 ```
 
 *** 
+
+#### **Information to students carrying mathematics courses**
+
+(@) Students who intend to use coursework marks from the previous year must apply at their respective departments.
+(@) The endorsed applications from the departments must be submitted to the mathematics department. 
+(@) Submision dates: 18-22 May 2020.
+(@) Although not mandatory, students are encouraged to redo the continuous assessment. 
 
