@@ -41,6 +41,8 @@ For the detailed Course Outline click the link below:
 
 [Sieve of Eratosthenes](https://spark.adobe.com/page/OBBCMVGXaKuOX/)
 
+[Rstudio: Number Theory](rs2.html)
+
 ***
 ### Worksheets
 
