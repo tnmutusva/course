@@ -35,5 +35,6 @@ RStudio is available in **open source** and **commercial** editions and runs on 
 
 
 ***
+##### [Rstudio: Number Theory](rs2.html){.continue-link}
 ##### [Rstudio: Linear Algebra](rs1.html){.continue-link}
 
