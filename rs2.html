@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159360766-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-159360766-1');
+</script>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>RStudio: Number Theory</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<meta name="description" content="Turn your analyses into high quality documents, reports, presentations and dashboards with R Markdown. Use a productive notebook interface to weave together narrative text and code to produce elegantly formatted output. Use multiple languages including R, Python, and SQL. R Markdown supports a reproducible workflow for dozens of static and dynamic output formats including HTML, PDF, MS Word, Beamer, HTML5 slides, Tufte-style handouts, books, dashboards, shiny applications, scientific articles, websites, and more." />
+
+<link rel="icon" type="image/png" href="images/favicon.png" />
+
+<script type="text/javascript" src="js/redirect.js"></script>
+<script type="text/javascript" src="js/rmarkdown.js"></script>
+<script type="text/javascript" src="js/ga.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="css/rmarkdown.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div id="rStudioHeader" class="alwaysShrunk">
+  <div class="innards bandContent">
+    <div>
+             <div class="logos"><img src="trhit.png" width="150px"></div>
+    </div>
+
+    <div id="menu">
+      <div id="menuToggler"></div>
+      <div id="menuItems">
+        <a class="menuItem" href="index.html">Home</a>
+        <a class="menuItem" href="mathsc.html">Mathematics Courses</a>
+        <a class="menuItem" href="rstudio.html">RStudio</a>
+        <a class="menuItem" href="gallery.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style type="text/css">
+#TOC {
+  margin-left: 35px;
+  margin-top: 90px;
+}
+</style>
+
+<script type="text/javascript">
+$(".main-container").removeClass("main-container").removeClass("container-fluid").addClass("footerPushDown");
+</script>
+
+
+<div id="pageContent" class="standardPadding">
+  <div class="articleBandContent">
+<div class="lessonPage">
+  <div class="lessonsNav">
+    <a id="rs" href="rstudio.html">RStudio</a>
+    <a id="rs1" href="rs1.html">RStudio: Linear Algebra</a>
+    <a id="rs2" href="rs1.html">RStudio: Number Theory</a>
+  </div>
+  <div class="lessonContent">
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">RStudio: Number Theory</h1>
+
+</div>
+
+
+<div id="numbers-package" class="section level3">
+<h3><strong>Numbers Package</strong></h3>
+<p>The numbers package provides number-theoretic functions for factorization, prime numbers, twin primes, primitive roots, modular logarithm and inverses, extended GCD, Farey series and continuous fractions. It includes Legendre and Jacobi symbols, some divisor functions, Euler’s Phi function, etc. To load the package type</p>
+<pre class="r"><code>library(numbers)</code></pre>
+</div>
+<div id="divisors-function" class="section level3">
+<h3><strong>Divisors Function</strong></h3>
+<p>divisors(<span class="math inline"><em>n</em></span>) Generates a list of divisors of an integer number (<span class="math inline"><em>n</em></span>). The list of all divisors of an integer <span class="math inline"><em>n</em></span> will be calculated and returned in ascending order, including 1 and the number itself. For <span class="math inline"><em>n</em> ≥ 1000</span> the list of prime factors of n will be used, for smaller <span class="math inline"><em>n</em></span> a total search is applied.</p>
+<p>Divisors of 6</p>
+<pre class="r"><code>divisors(6)</code></pre>
+<pre><code>## [1] 1 2 3 6</code></pre>
+<p>Divisors of 10</p>
+<pre class="r"><code>divisors(10)</code></pre>
+<pre><code>## [1]  1  2  5 10</code></pre>
+<p>Divisors of 12</p>
+<pre class="r"><code>divisors(12)</code></pre>
+<pre><code>## [1]  1  2  3  4  6 12</code></pre>
+<p>Divisors of 60</p>
+<pre class="r"><code>divisors(60)</code></pre>
+<pre><code>##  [1]  1  2  3  4  5  6 10 12 15 20 30 60</code></pre>
+</div>
+<div id="gcd-and-lcm-integer-functions" class="section level3">
+<h3><strong>GCD and LCM Integer Functions</strong></h3>
+<p>The functions generate the greatest common divisor and least common multiple of integers. Computation is based on the Euclidean algorithm.</p>
+<p>greatest common divisor of 341 and 527</p>
+<pre class="r"><code>GCD(341,527)</code></pre>
+<pre><code>## [1] 31</code></pre>
+<p>least common multiple of 341 and 527</p>
+<pre class="r"><code>LCM(341,527)</code></pre>
+<pre><code>## [1] 5797</code></pre>
+</div>
+<div id="prime-factors-function" class="section level3">
+<h3><strong>Prime Factors Function</strong></h3>
+<p>Computes a vector containing the prime factors of an integer <span class="math inline"><em>n</em></span>.</p>
+<p>Prime factors of 88</p>
+<pre class="r"><code>primeFactors(88)</code></pre>
+<pre><code>## [1]  2  2  2 11</code></pre>
+<hr />
+<p>Trevor. N. Mutusva, February 2020.</p>
+</div>
+
+  </div> <!-- lessonContent -->
+</div> <!-- lessonPage -->
+
+
+<script type="text/javascript">
+  var lesson = window.location.href.match(/lesson-[0-9]+/g);
+  if (lesson !== null) {
+    lesson = 'nav-' + lesson[0];
+    $('#'+lesson).addClass('current');
+  }
+
+  $('#show-answer').on("click", function() {
+    $('#show-answer').addClass('showing');
+    $('#model-answer').addClass('showing');
+  })
+</script>
+  </div> <!-- articleBandContent -->
+</div> <!-- pageContent -->
+
+<div id="rStudioFooter" class="band full">
+<div class="bandContent">
+  <div id="copyright">Trevor. N. Mutusva, 2020 </div>
+  <div id="logos">
+       <a href="https://twitter.com/tnmutusva" class="footerLogo twitter"></a>
+        <a href="https://www.linkedin.com/in/trevormutusva/" class="footerLogo linkedIn"></a>
+      </div>
+</div>
+</div>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+</body>
+</html>
