@@ -19,7 +19,8 @@ library(kableExtra)
 kable(T1) %>%
   kable_styling(bootstrap_options = c("striped", "hover", "responsive",position = "center", full_width = T)) %>%
 footnote( symbol = c("Only students who attend tutorials will be allowed to write tests.")) %>%
-  column_spec(1, bold = T,background = "yellow") 
+ row_spec(1:2,bold=T,  background = "green")%>%
+row_spec(3:6,bold=T,  background = "yellow")
 ```
 
 *** 
