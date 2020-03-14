@@ -7,6 +7,7 @@ output:
       before_body: [include_header.html, include_lessons_nav.html]
       after_body: [include_lessons_nav_end.html, include_footer.html]
 ---
+## **Course information** {.tabset .tabset-fade}
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
@@ -22,17 +23,21 @@ Phone   : +263242 741428-30 Ext 2372
 Website : https://tnmutusva.github.io/course
 </div>
 
+
 Assessment shall comprise of 4 in class tests, one assignment and an end of semester examination. The end of semester examination counts 75%, and the continuous assessment counts 25% towards the final mark. Only those who score an average of 50% in the 4 tests will be allowed to write the end of semester 
 examination. All tests and the exam are mandatory. Discuss any potential conflicts well before the test/exam date.
 
-For the detailed Course Outline click the link below:
-[Course Outline](https://drive.google.com/open?id=1n_ke-u-6ycHlVj-Rmmlev3IhWfQcGbg8)
+
 
 ### Course Content
 (@) Linear Algebera
 (@) Ordinary Differential Equations
 (@) Vector Calculus
 (@) Laplace Transforms
+
+For the detailed Course Outline click the link below:
+
+[Course Outline](https://drive.google.com/open?id=1n_ke-u-6ycHlVj-Rmmlev3IhWfQcGbg8)
 
 ***
 ### Lecture Notes
@@ -64,7 +69,8 @@ For the detailed Course Outline click the link below:
 ***
 ### Tests
 
-
+#### **2020**
+[Test 1(2020)](https://drive.google.com/open?id=1IM6ALrjos4PP0Lz9VWe2wqO6fQ-Davvw)
 
 #### **2019**
 [Test 1 (2019)](https://drive.google.com/open?id=1uLLuLDuV09GWLf1eFqzjjjFKkA72_9kK),
@@ -80,6 +86,10 @@ For the detailed Course Outline click the link below:
 [Examination (2018)](https://drive.google.com/open?id=1s15c_IJ54QyOlM_Sak4a23tvsxnOD3Vj),
 [Examination (2019)](https://drive.google.com/open?id=1EsQMps01up61VamIX8V6cb12-skYwb_X)
 
+
+### Coursework Marks
+
+
+
 ***
-### [ISS 126: Number Theory](iss126.html){.continue-link}
-### [ICS 226/ISE 225: Numerical Analysis](ics225.html){.continue-link}
+
