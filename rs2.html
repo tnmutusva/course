@@ -20,7 +20,7 @@
 
 
 
-<title>RStudio: Number Theory</title>
+<title>Number Theory</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -234,20 +234,21 @@ $(".main-container").removeClass("main-container").removeClass("container-fluid"
 
 
 
-<h1 class="title toc-ignore">RStudio: Number Theory</h1>
+<h1 class="title toc-ignore">Number Theory</h1>
 
 </div>
 
 
-<div id="numbers-package" class="section level2 tabset tabset-fade">
-<h2><strong>Numbers Package</strong></h2>
-<div id="introduction" class="section level3">
-<h3><span style="color:orange"><strong>Introduction</strong></span></h3>
-<p>The numbers package provides number-theoretic functions for factorization, prime numbers, twin primes, primitive roots, modular logarithm and inverses, extended GCD, Farey series and continuous fractions. It includes Legendre and Jacobi symbols, some divisor functions, Euler’s Phi function, etc. To load the package type</p>
+<p>In R, the numbers package provides number-theoretic functions for factorization, prime numbers, twin primes, primitive roots, modular logarithm and inverses, extended GCD, Farey series and continuous fractions. It includes Legendre and Jacobi symbols, some divisor functions, Euler’s Phi function, etc. Although R does not have a true integer data type, integers can be represented exactly up to <span class="math inline">2<sup>53</sup> − 1</span> . The numbers package attempts to provided basic number-theoretic functions that will work correcty and relatively fast up to this level. To load the package type</p>
 <pre class="r"><code>library(numbers)</code></pre>
+<div id="divisibility-modular-arithmetic" class="section level2 tabset tabset-fade tabset-pills">
+<h2><strong>Divisibility, Modular Arithmetic</strong></h2>
+<div id="introduction" class="section level3">
+<h3><strong>Introduction</strong></h3>
+<p>If <span class="math inline"><em>a</em></span> and <span class="math inline"><em>b</em></span> are integers with <span class="math inline"><em>b</em> ≠ 0</span>, we say that <span class="math inline"><em>b</em></span> divides <span class="math inline"><em>a</em></span> if there exists an integer <span class="math inline"><em>c</em></span> such that <span class="math inline"><em>a</em> = <em>b</em><em>c</em></span>. The notation <span class="math inline"><em>b</em> ∣ <em>a</em></span> denotes that <span class="math inline"><em>b</em></span> divides <span class="math inline"><em>a</em></span>.</p>
 </div>
-<div id="divisors-function" class="section level3">
-<h3><strong>Divisors Function</strong></h3>
+<div id="divisors" class="section level3">
+<h3><strong>Divisors</strong></h3>
 <p>divisors(<span class="math inline"><em>n</em></span>) Generates a list of divisors of an integer number (<span class="math inline"><em>n</em></span>). The list of all divisors of an integer <span class="math inline"><em>n</em></span> will be calculated and returned in ascending order, including 1 and the number itself. For <span class="math inline"><em>n</em> ≥ 1000</span> the list of prime factors of n will be used, for smaller <span class="math inline"><em>n</em></span> a total search is applied.</p>
 <p>Divisors of 6</p>
 <pre class="r"><code>divisors(6)</code></pre>
@@ -262,8 +263,17 @@ $(".main-container").removeClass("main-container").removeClass("container-fluid"
 <pre class="r"><code>divisors(60)</code></pre>
 <pre><code>##  [1]  1  2  3  4  5  6 10 12 15 20 30 60</code></pre>
 </div>
-<div id="gcd-and-lcm-integer-functions" class="section level3">
-<h3><strong>GCD and LCM Integer Functions</strong></h3>
+<div id="mod" class="section level3">
+<h3><strong>mod</strong></h3>
+<p>mod(<span class="math inline"><em>n</em>, <em>m</em></span>) is the modulo operator and returns <span class="math inline"><em>n</em> mod <em>m</em></span>.</p>
+<pre class="r"><code>mod(13,2)</code></pre>
+<pre><code>## [1] 1</code></pre>
+<p>rem(<span class="math inline"><em>n</em>, <em>m</em></span>) is the same as the modulo operator and returns <span class="math inline"><em>n</em> mod <em>m</em></span>.</p>
+<pre class="r"><code>rem(13,2)</code></pre>
+<pre><code>## [1] 1</code></pre>
+</div>
+<div id="gcd-lcm" class="section level3">
+<h3><strong>GCD &amp; LCM </strong></h3>
 <p>The functions generate the greatest common divisor and least common multiple of integers. Computation is based on the Euclidean algorithm.</p>
 <p>greatest common divisor of 341 and 527</p>
 <pre class="r"><code>GCD(341,527)</code></pre>
@@ -272,9 +282,22 @@ $(".main-container").removeClass("main-container").removeClass("container-fluid"
 <pre class="r"><code>LCM(341,527)</code></pre>
 <pre><code>## [1] 5797</code></pre>
 </div>
-<div id="prime-factors-function" class="section level3">
-<h3><strong>Prime Factors Function</strong></h3>
-<p>Computes a vector containing the prime factors of an integer <span class="math inline"><em>n</em></span>.</p>
+</div>
+<div id="primes-congruences" class="section level2 tabset tabset-fade tabset-pills">
+<h2><strong>Primes, Congruences</strong></h2>
+<div id="introduction-1" class="section level3">
+<h3><strong>Introduction</strong></h3>
+<p>An integer <span class="math inline"><em>p</em></span> greater than 1 is called prime if the only positive factors of <span class="math inline"><em>p</em></span> are 1 and <span class="math inline"><em>p</em></span>. A positive integer that is greater than 1 and is not prime is called composite.</p>
+</div>
+<div id="primes" class="section level3">
+<h3><strong>Primes</strong></h3>
+<p>Primes(<span class="math inline"><em>n</em></span>) uses the sieve of Eratosthenes to generate a list of prime numbers less or equal <span class="math inline"><em>n</em></span>. This approach is reasonably fast, but may require a lot of main memory when <span class="math inline"><em>n</em></span> is large. In double precision arithmetic integers are represented exactly only up to <span class="math inline">2<sup>53</sup> − 1</span>, therefore this is the maximal allowed value.</p>
+<pre class="r"><code>Primes(100)</code></pre>
+<pre><code>##  [1]  2  3  5  7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97</code></pre>
+</div>
+<div id="prime-factors" class="section level3">
+<h3><strong>Prime Factors</strong></h3>
+<p>primeFactors(<span class="math inline"><em>n</em></span>) computes a vector containing the prime factors of an integer <span class="math inline"><em>n</em></span>.</p>
 <p>Prime factors of 88</p>
 <pre class="r"><code>primeFactors(88)</code></pre>
 <pre><code>## [1]  2  2  2 11</code></pre>
