@@ -7,6 +7,7 @@ output:
       before_body: [include_header.html, include_lessons_nav.html]
       after_body: [include_lessons_nav_end.html, include_footer.html]
 ---
+## **Course information** {.tabset .tabset-fade}
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
@@ -63,7 +64,10 @@ For the detailed Course Outline click the link below:
 ***
 ### Tests
 
-#### 2019
+#### **2020**
+[Test 1 (2020)](https://drive.google.com/open?id=16_aZQlp_c8178V0y8d9v89E9zdgyXYF1)
+
+#### **2019**
 
 [Test 1 (2019)](https://drive.google.com/open?id=1x45fOVCdbA_2_zk7DFK4e2hjSl-2f0-N),
 [Test 2 (2019)](https://drive.google.com/open?id=1fOf75pgH_YapE-bPSAUPoIiJwp4qQixI),
@@ -76,5 +80,7 @@ For the detailed Course Outline click the link below:
 [Examination (2018)](https://drive.google.com/open?id=1614w6gezFliBBdhgXC5GXmTF6zifH7jO),
 [Examination (2019)](https://drive.google.com/open?id=1JQAHPMRKktkCW0e1NF_CJo2PnB6oPBuP)
 
+
+### Coursework Marks
 ***
 
