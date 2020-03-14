@@ -10,7 +10,7 @@ output:
 
 
 ## **HIT Mathematics** {.tabset .tabset-fade}
-### **Notices**
+### <span style="color:orange"> **Notices**
 Assessment for the courses shall be based on continuous assessment as well as Institute examinations. Continuous assessment will contribute 25% of the overall assessment mark of that course. Continuous assessment dates are as follows:
 
 ```{r echo=FALSE}
@@ -43,6 +43,6 @@ row_spec(3:6,bold=T,  background = "yellow")
 ### **ISS 126**
 [ISS 126: Number Theory](iss126.html)
 
-### **ICS 125/ISE 226**
+### **ICS 225/ISE 226**
 [ICS 225: Numerical Analysis](ics225.html)
 
