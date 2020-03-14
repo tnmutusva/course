@@ -7,7 +7,7 @@ output:
       before_body: [include_header.html, include_lessons_nav.html]
       after_body: [include_lessons_nav_end.html, include_footer.html]
 ---
-## **Course information** {.tabset .tabset-fade}
+## **Course information** {.tabset .tabset-fade .tabset-pills}
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
