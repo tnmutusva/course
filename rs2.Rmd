@@ -1,5 +1,5 @@
 ---
-title: 'RStudio: Number Theory'
+title: 'Number Theory'
 output:
   pdf_document: default
   html_document:
@@ -12,17 +12,19 @@ output:
       - include_rstudio_nav.html
   
 ---
-## **Numbers Package** {.tabset .tabset-fade}
-### <span style="color:orange">**Introduction**</span>
-
-The numbers package provides number-theoretic functions for factorization, prime numbers, twin primes, primitive roots, modular logarithm and inverses, extended GCD, Farey series and continuous fractions. It includes Legendre and Jacobi symbols, some divisor functions, Euler's Phi function, etc.
+In R, the numbers package provides number-theoretic functions for factorization, prime numbers, twin primes, primitive roots, modular logarithm and inverses, extended GCD, Farey series and continuous fractions. It includes Legendre and Jacobi symbols, some divisor functions, Euler's Phi function, etc.
+Although R does not have a true integer data type, integers can be represented exactly up to $2^{53}-1$ . The numbers package attempts to provided basic number-theoretic functions that will work correcty and relatively fast up to this level.
 To load the package type
 ```{r}
 library(numbers)
 ```
 
+## **Divisibility, Modular Arithmetic** {.tabset .tabset-fade .tabset-pills}
 
-### **Divisors Function**
+### **Introduction**
+If $a$ and $b$ are integers with $b\neq 0$, we say that $b$ divides $a$ if there exists an integer $c$ such that $a=bc$. The notation $b\mid a$ denotes that $b$ divides $a$.
+
+### **Divisors**
 
 divisors($n$) Generates a list of divisors of an integer number ($n$). The list of all divisors of an integer $n$ will be calculated and returned in ascending order, including 1 and the number itself. For $n\geq 1000$ the list of prime factors of n will be used, for smaller $n$ a total search is applied.
 
@@ -46,8 +48,22 @@ Divisors of 60
 divisors(60)
 ```
 
+### **mod**
 
-### **GCD and LCM Integer Functions**
+mod($n,\, m$) is the modulo operator and returns $n\, \mod m$.
+
+```{r}
+mod(13,2)
+```
+
+rem($n,\, m$) is the same as the modulo operator and returns $n\, \mod m$.
+
+```{r}
+rem(13,2)
+```
+
+
+### **GCD & LCM  **
 
 The functions generate the greatest common divisor and least common multiple of integers. Computation is based on the Euclidean algorithm.
 
@@ -61,14 +77,32 @@ least common multiple of 341 and 527
 LCM(341,527)
 ```
 
-### **Prime Factors Function**
 
-Computes a vector containing the prime factors of an integer $n$.
+## **Primes, Congruences** {.tabset .tabset-fade .tabset-pills}
+
+### **Introduction**
+
+An integer $p$ greater than 1 is called prime if the only positive factors of $p$ are 1 and $p$. A positive integer that is greater than 1 and is not prime is called composite.
+
+### **Primes**
+
+Primes($n$) uses the sieve of Eratosthenes to generate a list of prime numbers less or equal $n$. This approach is reasonably fast, but may require a lot of main memory when $n$ is large. In double precision arithmetic integers are represented exactly only up to $2^{53} - 1$, therefore this is the maximal allowed value.
+
+```{r}
+Primes(100)
+```
+
+
+### **Prime Factors**
+
+primeFactors($n$) computes a vector containing the prime factors of an integer $n$.
 
 Prime factors of 88
 ```{r}
 primeFactors(88)
 ```
+
+
 
 
 
