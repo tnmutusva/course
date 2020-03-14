@@ -8,8 +8,10 @@ output:
       after_body: [include_lessons_nav_end.html, include_footer.html]
 ---
 
-# [HIT Mathematics](mathsc.html)
-[Click here](mathsc.html) to go to the courses page. Assessment for the courses shall be based on continuous assessment as well as Institute examinations. Continuous assessment will contribute 25% of the overall assessment mark of that course. Continuous assessment dates are as follows:
+
+## **HIT Mathematics** {.tabset .tabset-fade}
+### **Notices**
+Assessment for the courses shall be based on continuous assessment as well as Institute examinations. Continuous assessment will contribute 25% of the overall assessment mark of that course. Continuous assessment dates are as follows:
 
 ```{r echo=FALSE}
 library(readxl)
@@ -31,4 +33,16 @@ row_spec(3:6,bold=T,  background = "yellow")
 (@) The endorsed applications from the departments must be submitted to the mathematics department. 
 (@) Submision dates: 18-22 May 2020.
 (@) Although not mandatory, students are encouraged to redo the continuous assessment. 
+
+### **HIT 121**
+[HIT 121: Engineering Mathematics II](hit121.html)
+
+### **HIT 122**
+[HIT 122: Mathematics For Technologits II](hit122.html)
+
+### **ISS 126**
+[ISS 126: Number Theory](iss126.html)
+
+### **ICS 125/ISE 226**
+[ICS 225: Numerical Analysis](ics225.html)
 
