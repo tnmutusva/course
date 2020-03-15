@@ -222,13 +222,6 @@ $(".main-container").removeClass("main-container").removeClass("container-fluid"
 
 <div id="pageContent" class="standardPadding">
   <div class="articleBandContent">
-<div class="lessonPage">
-  <div class="lessonsNav">
-    <a id="rs" href="rstudio.html">RStudio</a>
-    <a id="rs1" href="rs1.html">RStudio: Linear Algebra</a>
-    <a id="rs2" href="rs1.html">RStudio: Number Theory</a>
-  </div>
-  <div class="lessonContent">
 
 <div class="fluid-row" id="header">
 
@@ -306,22 +299,6 @@ $(".main-container").removeClass("main-container").removeClass("container-fluid"
 </div>
 </div>
 
-  </div> <!-- lessonContent -->
-</div> <!-- lessonPage -->
-
-
-<script type="text/javascript">
-  var lesson = window.location.href.match(/lesson-[0-9]+/g);
-  if (lesson !== null) {
-    lesson = 'nav-' + lesson[0];
-    $('#'+lesson).addClass('current');
-  }
-
-  $('#show-answer').on("click", function() {
-    $('#show-answer').addClass('showing');
-    $('#model-answer').addClass('showing');
-  })
-</script>
   </div> <!-- articleBandContent -->
 </div> <!-- pageContent -->
 
