@@ -5,11 +5,10 @@ output:
   html_document:
     includes:
       after_body:
-      - include_lessons_nav_end.html
       - include_footer.html
       before_body:
       - include_header.html
-      - include_rstudio_nav.html
+     
   
 ---
 In R, the numbers package provides number-theoretic functions for factorization, prime numbers, twin primes, primitive roots, modular logarithm and inverses, extended GCD, Farey series and continuous fractions. It includes Legendre and Jacobi symbols, some divisor functions, Euler's Phi function, etc.
