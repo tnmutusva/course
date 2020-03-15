@@ -11,7 +11,8 @@ output:
       
   
 ---
-## Eigenvalues and Eigenvectors
+
+### Eigenvalues
 
 ```{r, echo=FALSE}
 htmltools::includeHTML("e1.html")
@@ -30,6 +31,11 @@ Then use the command
 eigen(A,only.value=TRUE)
 ```
 
+### Eigenvectors
+
+```{r, echo=FALSE}
+htmltools::includeHTML("e2.html")
+```
 
 ***
 Trevor. N. Mutusva, February 2020.
