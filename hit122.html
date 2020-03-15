@@ -3,7 +3,7 @@
 <html>
 
 <head>
-   <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159360766-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -22,7 +22,7 @@
 
 <title>HIT 122: Mathematics For Technologists II</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -31,6 +31,14 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="site_libs/datatables-binding-0.12/datatables.js"></script>
+<link href="site_libs/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="site_libs/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="site_libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
+<link href="site_libs/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
+<script src="site_libs/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
 
 <meta name="description" content="Turn your analyses into high quality documents, reports, presentations and dashboards with R Markdown. Use a productive notebook interface to weave together narrative text and code to produce elegantly formatted output. Use multiple languages including R, Python, and SQL. R Markdown supports a reproducible workflow for dozens of static and dynamic output formats including HTML, PDF, MS Word, Beamer, HTML5 slides, Tufte-style handouts, books, dashboards, shiny applications, scientific articles, websites, and more." />
 
@@ -275,7 +283,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <h3>Worksheets</h3>
 <div id="section" class="section level4">
 <h4><strong>2020</strong></h4>
-<p><a href="https://drive.google.com/open?id=13pMST2W6B8Ytjfa8lRZQnlEUL2usWvQ3">Worksheet 1(2020)</a></p>
+<p><a href="https://drive.google.com/open?id=13pMST2W6B8Ytjfa8lRZQnlEUL2usWvQ3">Worksheet 1 (2020)</a>, <a href="https://drive.google.com/open?id=1VmoJBGaLT9TIxtDfajOqnGA1DBEMtqMc">Worksheet 2 (2020)</a></p>
 </div>
 <div id="section-1" class="section level4">
 <h4><strong>2019</strong></h4>
@@ -301,6 +309,8 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </div>
 <div id="coursework-marks" class="section level3">
 <h3>Coursework Marks</h3>
+<div id="htmlwidget-0d1adb216d759e037820" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-0d1adb216d759e037820">{"x":{"filter":"none","caption":"<caption>For fast access, type your surname in the search box.<\/caption>","data":[["Bandera","Bhande","Bosha","Bvuma","Chakanyeka","Chezhira","Chifodya","Chigunwe","Chingombe","Chinhoro","Chirima","Chirumbwana","Chitsike","Chivhunze","Chiwawa","Dambiranwa","Dembure","Dhakwa","Dhliwayo","Jeranyama","John","Kashiri","Kumire","Mabureza","Machekanyanga","Madanhi","Madzima","Madzimure","Madziva","Magumise","Makamure","Makoni","Makuza","Mambodza","Mambwerere","Mapuranga","Marikano","Marondedze","Marufu","Marufu","Mashingaidze","Mashongwa","Matizanadzo","Maviya","Mazarura","Maziriri","Mazodze","Mazvito","Mhlanga","Mhlanga","Mlambo","Muchato","Mudzengerere","Mugoti","Mukashuri","Munyeza","Musipa","Muzariri","Mwawa","Nhaitai","Nyahore","Nyakurwa-Mhlanga","Nyarugwe","Nyerenyere","Padziri","Phiri","Ruhukwa","Rukwishuro","Ruzive","Samubata","Saungweme","Sibanda","Takaendesa","Tiugari","Tokonyai","Tsara","Zenda"],["BS","M","A","T","L","T.","D","KN","TK","T","F","T","M","M","L","M","S","R","TT","T","CT","TI","RP","E","AR","T","NR","N","A","C","P","T","T","T","RR","P","C","HT","M","P","J","F","TH","TT","B","B","T","T","S","L","K","M","LT","R","B","VD","A","DN","T","R","D","SR","R","R","HG","TK","CB","T","S","V","D","T","R","A","ATB","K.","M"],["H190841N","H190590T","H190567H","H190506Z","H190451W","H180596M","H190432H","H190684V","H190426T","H190438R","H190478X","H190460R","H190396T","H190439","H190576B","H180399Q","H190446T","H190613B","H190485E","H190690Q","H190608F","H190515B","H190739T","H190366Y","H190182W","H190246M","H190600N","H190723N","H190746C","H190365P","H190736E","H190427Q","H180110Y","H190578Y","H190622J","H190834A","H190489M","H190787B","H190502F","H190168W","H180642M","H180665Q","H190574J","H190617Q","H190436X","H190711N","H190481G","H190492","H190524V","H190641B","H190157V","H190109Q","H190422T","H190854V","H190693C","H190651F","H190262G","H190598C","H190625X","H190444A","H190273B","H190316M","H190581Z","H190571C","H190287G","H1905704F","H190347G","H190374E","H190756A","H190847H","H190484C","H190416M","H190629G","H190595G","H190494","H190658W","H190751C"],["FPT","FPT","BIOTEC","FPT","BIOTEC","BIOTEC","FPT","FPT","BIOTEC","BIOTEC","BIOTEC","BIOTEC","BIOTEC","BIOTEC","BIOTEC","FPT","BIOTEC","BIOTEC","BIOTEC","FPT","BIOTEC","FPT","FPT","BIOTEC","FPT","BIOTEC","FPT","FPT","FPT","BIOTEC","FPT","FPT","BIOTEC","FPT","FPT","BIOTEC","BIOTEC","FPT","BIOTEC","FPT","FPT","FPT","BIOTEC","FPT","BIOTEC",null,"FPT","BIOTEC","FPT","FPT","BIOTEC","FPT","FPT","FPT","FPT","BIOTEC","FPT","BIOTEC","FPT","BIOTEC","FPT","BIOTEC","BIOTEC","BIOTEC","BIOTEC","BIOTEC","BIOTEC","FPT","FPT","FPT","BIOTEC","FPT","FPT","BIOTEC","BIOTEC","BIOTEC","FPT"],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Surname<\/th>\n      <th>Initial<\/th>\n      <th>Reg<\/th>\n      <th>Dept<\/th>\n      <th>Test 1<\/th>\n      <th>Test 2<\/th>\n      <th>Test 3<\/th>\n      <th>Test 4<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":5,"scrollX":true,"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[5,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 <hr />
 </div>
 </div>
