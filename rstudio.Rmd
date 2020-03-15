@@ -7,8 +7,8 @@ output:
       before_body: [include_header.html, include_rstudio_nav.html]
       after_body: [include_lessons_nav_end.html, include_footer.html]
 ---
-
-### The R environment
+## **The R environment** {.tabset .tabset-fade .tabset-pills}
+### R 
 
 R is an integrated suite of software facilities for data manipulation, calculation and graphical display. It includes
 
@@ -24,6 +24,11 @@ R, like S, is designed around a true computer language, and it allows users to a
 
 [Click Here to download R](https://cran.r-project.org/mirrors.html)
 
+***
+ [Rstudio: Number Theory](rs2.html)
+ 
+ [Rstudio: Linear Algebra](rs1.html)
+
 ### Rstudio
 
 RStudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.
@@ -32,9 +37,10 @@ RStudio is available in **open source** and **commercial** editions and runs on 
 
 [Click here to download RStudio](https://rstudio.com/products/rstudio/)
 
-
+ 
 
 ***
-##### [Rstudio: Number Theory](rs2.html){.continue-link}
-##### [Rstudio: Linear Algebra](rs1.html){.continue-link}
+ [Rstudio: Number Theory](rs2.html)
+ 
+ [Rstudio: Linear Algebra](rs1.html)
 
