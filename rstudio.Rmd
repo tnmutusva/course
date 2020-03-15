@@ -2,10 +2,10 @@
 title: "RStudio"
 output:
   html_document:
-    toc_float: false
+    toc_float: true
     includes:
-      before_body: [include_header.html, include_rstudio_nav.html]
-      after_body: [include_lessons_nav_end.html, include_footer.html]
+      before_body: [include_header.html]
+      after_body: [ include_footer.html]
 ---
 ## **The R environment** {.tabset .tabset-fade .tabset-pills}
 ### R 
@@ -38,9 +38,16 @@ RStudio is available in **open source** and **commercial** editions and runs on 
 [Click here to download RStudio](https://rstudio.com/products/rstudio/)
 
  
-
 ***
  [Rstudio: Number Theory](rs2.html)
  
  [Rstudio: Linear Algebra](rs1.html)
+ 
+### Mathematics
+R includes an extensive set of built-in math functions. In addition to the built-in functions there are also many packages that can be used. Click the links below for further information.
 
+ [Number Theory](rs2.html)
+ 
+ [ Linear Algebra](rs1.html)
+ 
+ 
