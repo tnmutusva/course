@@ -10,6 +10,7 @@ output:
 ## **The R environment** {.tabset .tabset-fade .tabset-pills}
 ### R 
 
+
 R is an integrated suite of software facilities for data manipulation, calculation and graphical display. It includes
 
 + an effective data handling and storage facility,
