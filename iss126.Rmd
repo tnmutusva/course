@@ -82,5 +82,15 @@ For the detailed Course Outline click the link below:
 
 
 ### Coursework Marks
+
+For fast access, type your surname in the search box.
+
+```{r echo=FALSE}
+library(readxl)
+cw126<- read_excel("1262020cw.xlsx")
+library(DT)
+datatable(cw126, rownames = FALSE,  options = list(pageLength = 5, scrollX=T) )
+```
+
 ***
 
