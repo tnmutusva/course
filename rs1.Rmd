@@ -5,11 +5,10 @@ output:
   html_document:
     includes:
       after_body:
-      - include_lessons_nav_end.html
       - include_footer.html
       before_body:
       - include_header.html
-      - include_rstudio_nav.html
+      
   
 ---
 
