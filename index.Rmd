@@ -34,6 +34,16 @@ row_spec(4:7,bold=T,  background = "yellow")
 (@) Submision dates: 18-22 May 2020.
 (@) Although not mandatory, students are encouraged to redo the continuous assessment. 
 
+***
+<center>
+**Made with**
+</center>
+
+<center>
+![](rmarkdownlogo.png){ width=45% }
+</center>
+
+
 ### **HIT 121**
 [HIT 121: Engineering Mathematics II](hit121.html)
 
@@ -45,4 +55,6 @@ row_spec(4:7,bold=T,  background = "yellow")
 
 ### **ICS 226/ISE 225**
 [ICS 226/ISE 225: Numerical Analysis](ics225.html)
+
+
 
