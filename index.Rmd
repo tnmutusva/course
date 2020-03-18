@@ -38,11 +38,11 @@ row_spec(4:7,bold=T,  background = "yellow")
 **Made with**
 </center>
 <center>
-[![](logoRStudio.png){ width=22% }](https://rstudio.com)
+[![](logoRStudio.png){ width=12% }](https://rstudio.com)
 </center>
 
 <center>
-![](rmarkdownlogo.png){ width=45% }
+![](rmarkdownlogo.png){ width=35% }
 </center>
 
 
