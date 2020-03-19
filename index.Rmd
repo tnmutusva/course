@@ -50,7 +50,7 @@ row_spec(4:7,bold=T,  background = "yellow")
 [HIT 121: Engineering Mathematics II](hit121.html)
 
 ### **HIT 122**
-[HIT 122: Mathematics For Technologits II](hit122.html)
+[HIT 122: Mathematics For Technologists II](hit122.html)
 
 ### **ISS 126**
 [ISS 126: Number Theory](iss126.html)
