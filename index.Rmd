@@ -20,8 +20,7 @@ library(knitr)
 library(kableExtra)
 kable(T1) %>%
   kable_styling(bootstrap_options = c("striped", "hover", "responsive",position = "center", full_width = T)) %>%
-footnote( symbol = c("Only students who attend tutorials will be allowed to write tests.")) %>%
-row_spec(4:7,bold=T,  background = "yellow")
+footnote( symbol = c("Only students who attend tutorials will be allowed to write tests.")) 
 ```
 
 *** 
@@ -38,11 +37,11 @@ row_spec(4:7,bold=T,  background = "yellow")
 **Made with**
 </center>
 <center>
-[![](logoRStudio.png){ width=12% }](https://rstudio.com)
+[![](logoRStudio.png){ width=8% }](https://rstudio.com)
 </center>
 
 <center>
-![](rmarkdownlogo.png){ width=35% }
+![](rmarkdownlogo.png){ width=25% }
 </center>
 
 
