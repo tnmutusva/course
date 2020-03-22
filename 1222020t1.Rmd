@@ -19,24 +19,10 @@ htmltools::includeHTML("1222020t1mod.html")
 ```
 
 
-To find the eigenvalues using R,first enter the matrix
-
-```{r}
-A<-matrix(c(1,2,1,2,0,-2,-1,2,3),nrow=3,ncol=3,byrow=TRUE)
-```
-
-Then use the command
-
-```{r}
-eigen(A,only.value=TRUE)
-```
 
 
 
-```{r, echo=FALSE}
-htmltools::includeHTML("e2.html")
-```
 
 ***
-Trevor. N. Mutusva, February 2020.
+Trevor. N. Mutusva, March 2020.
 
