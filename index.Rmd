@@ -10,6 +10,29 @@ output:
 
 
 ## **HIT Mathematics** {.tabset .tabset-fade}
+
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
+<center>
+**Online Learning **
+</center>
+While physical congregation  for classes has been suspended, online learning will continue so as to minimise disruptions to the semester.
+
+<center>
+**Online Quizzes **
+</center>
+
+(@) Links to online quizzes will be posted on the respective course's webpage.
+(@) Quiz dates will be posted on the notices below.
+(@) The quizzes are  compulsory and will contribute to the final coursework mark.
+(@) Instructions:
+    * When entering your surname  the first letter must be an uppercase letter, the rest must be lowercase letters. Example: **Surname**
+    * When entering the letters on your registration number, please use uppercase letters only. Example: **H000000A**
+    * Only click the submit button when you have verified your answers. The submit button will be on the last page of the quiz. If a student makes  multiple submissions, only the first one will be recorded.
+</div>
 ### <span style="color:orange"> **Notices**
 Assessment for the courses shall be based on continuous assessment as well as Institute examinations. Continuous assessment will contribute 25% of the overall assessment mark of that course. Continuous assessment dates are as follows:
 
@@ -34,7 +57,7 @@ footnote( symbol = c("Only students who attend tutorials will be allowed to writ
 
 ***
 <center>
-**Made with**
+**Built with**
 </center>
 <center>
 [![](logoRStudio.png){ width=8% }](https://rstudio.com)
