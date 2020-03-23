@@ -32,6 +32,8 @@ While physical congregation  for classes has been suspended, online learning wil
     * When entering your surname  the first letter must be an uppercase letter, the rest must be lowercase letters. Example: **Surname**
     * When entering the letters on your registration number, please use uppercase letters only. Example: **H000000A**
     * Only click the submit button when you have verified your answers. The submit button will be on the last page of the quiz. If a student makes  multiple submissions, only the first one will be recorded.
+(@) To acquaint yourself with the quiz format click the link [Sample Quiz(Linear Aldebra, ODEs, Vector Calculus, Laplace Transforms)](https://docs.google.com/forms/d/e/1FAIpQLSdNFcWuuoTi5Oh99tnF7uLuP4qwgl_Xju6xvoCc1w7V9WDH6w/viewform?usp=sf_link).  
+Tutorials will have the same format as quizzes. The only difference will be that they will give detailed solutions after submission.
 </div>
 ### <span style="color:orange"> **Notices**
 Assessment for the courses shall be based on continuous assessment as well as Institute examinations. Continuous assessment will contribute 25% of the overall assessment mark of that course. Continuous assessment dates are as follows:
@@ -50,10 +52,10 @@ footnote( symbol = c("Only students who attend tutorials will be allowed to writ
 
 #### **Information to students carrying mathematics courses**
 
-(@) Students who intend to use coursework marks from the previous year must apply at their respective departments.
-(@) The endorsed applications from the departments must be submitted to the mathematics department. 
-(@) Submision dates: 18-22 May 2020.
-(@) Although not mandatory, students are encouraged to redo the continuous assessment. 
++ Students who intend to use coursework marks from the previous year must apply at their respective departments.
++ The endorsed applications from the departments must be submitted to the mathematics department. 
++ Submision dates: 18-22 May 2020.
++ Although not mandatory, students are encouraged to redo the continuous assessment. 
 
 ***
 <center>
