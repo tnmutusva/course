@@ -28,6 +28,32 @@ Phone   : +263242 741428-30 Ext 2372
 Assessment shall comprise of 3 in class tests and an end of semester examination. The end of semester examination counts 75%, and the continuous assessment counts 25% towards the final mark. Only those who score an average of 50% in the 3 tests will be allowed to write the end of semester 
 examination. All tests and the exam are mandatory. Discuss any potential conflicts well before the test/exam date.
 
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
+<center>
+**Online Learning **
+</center>
+While physical congregation  for classes has been suspended, online learning will continue so as to minimise disruptions to the semester.
+
+<center>
+**Online Quizzes **
+</center>
+
+(@) Links to online quizzes will be posted on the respective course's webpage.
+(@) Quiz dates will be posted on the notices below.
+(@) The quizzes are  compulsory and will contribute to the final coursework mark.
+(@) Instructions:
+    * When entering your surname  the first letter must be an uppercase letter, the rest must be lowercase letters. Example: **Surname**
+    * When entering the letters on your registration number, please use uppercase letters only. Example: **H000000A**
+    * Only click the submit button when you have verified your answers. The submit button will be on the last page of the quiz. If a student makes  multiple submissions, only the first one will be recorded.
+(@) To acquaint yourself with the quiz format click the link [Sample Quiz(Linear Aldebra, ODEs, Vector Calculus, Laplace Transforms)](https://docs.google.com/forms/d/e/1FAIpQLSdNFcWuuoTi5Oh99tnF7uLuP4qwgl_Xju6xvoCc1w7V9WDH6w/viewform?usp=sf_link).  
+Tutorials will have the same format as quizzes. The only difference will be that they will give detailed solutions after submission.
+</div>
+
+
 
 ### Course Content
 (@) Linear Algebera
