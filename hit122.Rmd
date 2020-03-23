@@ -97,7 +97,11 @@ For the detailed Course Outline click the link below:
 library(readxl)
 cw122<- read_excel("1222020cw.xlsx")
 library(DT)
-datatable(cw122, rownames = FALSE,caption = 'For fast access, type your surname in the search box.',  options = list(pageLength = 5, scrollX=T) )
+datatable(cw122, rownames = FALSE,caption = 'For fast access, type your surname in the search box.',  options = list(pageLength = 5, scrollX=T) ) %>%
+  formatStyle(
+    'Test_1',
+    color = styleInterval(c(0.5, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+  formatPercentage('Test_1', 0)
 ```
 
 
