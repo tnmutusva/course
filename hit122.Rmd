@@ -71,6 +71,8 @@ For the detailed Course Outline click the link below:
 
 [ Linear Algebra ](https://spark.adobe.com/page/LQZ536TE2sFA9/)
 
+[Ordinary Differential Equations](https://drive.google.com/open?id=1iGQ5TX46yhYvN31PuscJLMq59ek4OYVZ)
+
 
 
 
@@ -126,7 +128,7 @@ The full marks list for Test 1 will be ready on Thursday, 26  March 2020.
 library(readxl)
 cw122<- read_excel("1222020cw.xlsx")
 library(DT)
-datatable(cw122, rownames = FALSE,caption = 'For fast access, type your surname in the search box.',  options = list(pageLength = 5, scrollX=T,columnDefs=list(list(targets=2,visible=FALSE))) ) %>%
+datatable(cw122, rownames = FALSE,caption = 'For fast access, type your surname in the search box.',  options = list(pageLength = 5, scrollX=T,columnDefs=list(list(targets=2,visible=FALSE),list(className = 'dt-center', targets = 1:4))) ) %>%
   formatStyle(
     'Test_1',
     color = styleInterval(c(0.5, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
