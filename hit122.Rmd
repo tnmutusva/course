@@ -41,6 +41,21 @@ BVUMA, DAMBIRANWA, MASHONGWA. Only the first letter was supposed to uppercase.
 
 Mwawa Tanyaradzwa, Marondedze Tendai H. You were asked to enter your surname only.
 
+[ODEs Tutorial 2 Model Answers](https://spark.adobe.com/page/5IMuQzmSAr4bo/)
+
+
+```{r echo=FALSE}
+library(readxl)
+ode122<- read_excel("1222020ode.xlsx")
+library(DT)
+datatable(ode122, rownames = FALSE,caption = 'For fast access, type your surname in the search box.',  options = list(pageLength = 5, scrollX=T,columnDefs=list(list(className = 'dt-center', targets = 2:4))) ) %>%
+  formatStyle(
+    'Score',
+    color = styleInterval(c(0.5, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+  formatPercentage('Score', 0)
+```
+
+
 ### Course Content
 (@) Linear Algebera
 (@) Ordinary Differential Equations
