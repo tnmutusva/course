@@ -7,7 +7,7 @@ output:
       before_body: [include_header.html, include_lessons_nav.html]
       after_body: [include_lessons_nav_end.html, include_footer.html]
 ---
-
+## **Course information** {.tabset .tabset-fade .tabset-pills}
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
@@ -53,7 +53,13 @@ While physical congregation  for classes has been suspended, online learning wil
 Tutorials will have the same format as quizzes. The only difference will be that they will give detailed solutions after submission.
 </div>
 
+### Quiz/Tutorial
 
+**Quiz 1** has been scheduled for Tuesday, 31 March 2020. The quiz will be on linear algebra. The link to the quiz will be posted here on Tuesday.
+
+Submissions close: 23:59 on Tuesday, 31 March 2020. 
+
+**Note:** Quizzes  are compulsory and will contribute to your final coursework mark.
 
 ### Course Content
 (@) Linear Algebera
@@ -123,6 +129,4 @@ Tutorials will have the same format as quizzes. The only difference will be that
 
 
 ***
-### [HIT 122: Mathematics For Technologists II](hit122.html){.continue-link}
-### [ISS 126: Number Theory](iss126.html){.continue-link}
-### [ICS 226/ISE 225: Numerical Analysis](ics225.html){.continue-link}
+
