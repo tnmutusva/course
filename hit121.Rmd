@@ -50,7 +50,7 @@ While physical congregation  for classes has been suspended, online learning wil
     * When entering the letters on your registration number, please use uppercase letters only. Example: **H000000A**
     * Only click the submit button when you have verified your answers. The submit button will be on the last page of the quiz. If a student makes  multiple submissions, only the first one will be recorded.
 (@) To acquaint yourself with the quiz format click the link [Sample Quiz(Linear Aldebra, ODEs, Vector Calculus, Laplace Transforms)](https://docs.google.com/forms/d/e/1FAIpQLSdNFcWuuoTi5Oh99tnF7uLuP4qwgl_Xju6xvoCc1w7V9WDH6w/viewform?usp=sf_link).  
-Tutorials will have the same format as quizzes. The only difference will be that they will give detailed solutions after submission.
+
 </div>
 
 ### Quiz/Tutorial
