@@ -61,6 +61,8 @@ Submissions close: 23:59 on Tuesday, 31 March 2020.
 
 **Note:** Quizzes  are compulsory and will contribute to your final coursework mark.
 
+[ODEs solved problems](https://spark.adobe.com/page/5IMuQzmSAr4bo/)
+
 ### Course Content
 (@) Linear Algebera
 (@) Ordinary Differential Equations
