@@ -33,6 +33,10 @@ Quizzes are  compulsory and will contribute to the final coursework mark.
  To acquaint yourself with the quiz format click the link [Sample Number Theory Quiz](https://docs.google.com/forms/d/e/1FAIpQLScy3k8AtifIXN-G8Pu49wFGMN5_fGQ71DOb-1DiTHdEr9oEYg/viewform?usp=sf_link)
 Tutorials will have the same format as quizzes. The only difference will be that they will give detailed solutions after submission.
 
+**Quiz 1** has been scheduled for Friday, 17 April 2020. The quiz will be on Primes congruences and functions. The link to the quiz will be posted here.
+
+[Solved Problems](https://spark.adobe.com/page/0cMkXls6nSsTV/). This link will be updated on a weekly basis.
+
 ### Course Content
 (@) Divisibility, Modular Arithmetic.
 (@) Prime Numbers.
