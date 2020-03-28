@@ -41,7 +41,7 @@ BVUMA, DAMBIRANWA, MASHONGWA. Only the first letter was supposed to uppercase.
 
 Mwawa Tanyaradzwa, Marondedze Tendai H. You were asked to enter your surname only.
 
-[ODEs Tutorial 2 Model Answers](https://spark.adobe.com/page/5IMuQzmSAr4bo/)
+[ODEs Solved Problems](https://spark.adobe.com/page/5IMuQzmSAr4bo/)
 
 
 ```{r echo=FALSE}
