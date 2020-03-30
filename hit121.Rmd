@@ -54,12 +54,17 @@ While physical congregation  for classes has been suspended, online learning wil
 </div>
 
 ### Quiz/Tutorial
+***
 
-**Quiz 1** has been scheduled for Tuesday, 31 March 2020. The quiz will be on linear algebra. The link to the quiz will be posted here on Tuesday.
+**Quiz 1** has been scheduled for Tuesday, 31 March 2020. The quiz will be on linear algebra. [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdkz41ZNXnV9_X-OsYIjZKhwJ2M3svrwVwl2nl7yTp8yk-LRg/viewform?usp=sf_link) to access the quiz. 
 
-Submissions close: 23:59 on Tuesday, 31 March 2020. 
+Submissions open at 00:00 on Tuesday, 31 March 2020.
+
+Submissions close at  23:59 on Tuesday, 31 March 2020. 
 
 **Note:** Quizzes  are compulsory and will contribute to your final coursework mark.
+
+***
 
 [ODEs solved problems](https://spark.adobe.com/page/7jrCE8B0vNMtf/)
 
