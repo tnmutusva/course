@@ -105,7 +105,11 @@ For fast access, type your surname in the search box.
 library(readxl)
 cw126<- read_excel("1262020cw.xlsx")
 library(DT)
-datatable(cw126, rownames = FALSE,  options = list(pageLength = 5, scrollX=T,columnDefs=list(list(targets=2,visible=FALSE),list(className = 'dt-center', targets = 1:4))) )
+datatable(cw126, rownames = FALSE,  options = list(pageLength = 5, scrollX=T,columnDefs=list(list(targets=2,visible=FALSE),list(className = 'dt-center', targets = 1:4))) )%>%
+  formatStyle(
+    'Test_1',
+    color = styleInterval(c(0.5, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+  formatPercentage('Test_1', 0)
 ```
 
 ***
