@@ -30,9 +30,19 @@ examination. All tests and the exam are mandatory. Discuss any potential conflic
 ### Quiz/Tutorial
 ***
 
+[ODEs Solved Problems](https://spark.adobe.com/page/5IMuQzmSAr4bo/)
+
+***
+
 **Quiz 1** has been scheduled for Thursday, 2 April 2020. The quiz will be on ODEs. The link to the quiz will be posted here on Thursday.
 
-Submissions close: 23:59 on Thursday, 2 April 2020. 
+**Format for answers with mathematical formula**
+
+If your answer is $y=c_1e^{2x}+c_2e^{5x}$, write y=c1e^2x+ c2e^5x in the space that will be provided.
+
+Submissions open at 00:00 on Thursday, 2 April 2020. 
+
+Submissions close at 23:59 on Thursday, 2 April 2020. 
 
 **Note:** Quizzes  are compulsory and will contribute to your final coursework mark.
 
@@ -42,7 +52,6 @@ Submissions close: 23:59 on Thursday, 2 April 2020.
 
 Submissions close: 23:59 on Thursday, 26 March 2020. 
 
-**Note:** Tutorials are compulsory.
 
 Can the followig please learn to follow instructions:
 BVUMA, DAMBIRANWA, MASHONGWA. Only the first letter was supposed to uppercase.
