@@ -34,11 +34,9 @@ examination. All tests and the exam are mandatory. Discuss any potential conflic
 
 ***
 
-**Quiz 1** has been scheduled for Thursday, 2 April 2020. The quiz will be on ODEs. The link to the quiz will be posted here on Thursday.
+**Quiz 1** has been scheduled for Thursday, 2 April 2020. The quiz will be on ODEs. [Click Here to access Quiz 1(ODEs)](https://docs.google.com/forms/d/e/1FAIpQLSe6IUkd5_b-nviKOfPYfUTx5TfTaESUmiwhceVLoxctNqdrmQ/viewform?usp=sf_link)
 
-**Format for answers with mathematical formula**
 
-If your answer is $y=c_1e^{2x}+c_2e^{5x}$, write y=c1e^2x+ c2e^5x in the space that will be provided.
 
 Submissions open at 00:00 on Thursday, 2 April 2020. 
 
