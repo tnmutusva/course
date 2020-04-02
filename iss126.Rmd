@@ -35,7 +35,10 @@ Tutorials will have the same format as quizzes. The only difference will be that
 
 **Quiz 1** has been scheduled for Friday, 17 April 2020. The quiz will be on Primes congruences and functions. The link to the quiz will be posted here.
 
-[Solved Problems](https://spark.adobe.com/page/0cMkXls6nSsTV/). This link will be updated on a weekly basis.
+[Solved Problems](https://spark.adobe.com/page/0cMkXls6nSsTV/). This link will be
+updated on a weekly basis.
+
+<script id="asp-embed-script" data-zindex="1000000" type="text/javascript" charset="utf-8" src="https://spark.adobe.com/page-embed.js"></script><a class="asp-embed-link" href="https://spark.adobe.com/page/0cMkXls6nSsTV/" target="_blank"><img src="https://spark.adobe.com/page/0cMkXls6nSsTV/embed.jpg?buster=1585819426476" alt="Number Theory" style="width:100%" border="0" /></a>
 
 ### Course Content
 (@) Divisibility, Modular Arithmetic.
@@ -66,7 +69,8 @@ For the detailed Course Outline click the link below:
 #### 2020
 
 [Worksheet 1 (2020)](https://drive.google.com/open?id=1mNpLaAz5pj-tukVtpg-PcCpLuGjLLJbz),
-[Worksheet 2 (2020)](https://drive.google.com/open?id=1f0Lxov-3FO8I1UX61iU7rifLotwPfbGs)
+[Worksheet 2 (2020)](https://drive.google.com/open?id=1f0Lxov-3FO8I1UX61iU7rifLotwPfbGs),
+[Worksheet 3 (2020)](https://drive.google.com/open?id=14iLk0e6ghGeNqbR5KnfKzLHgWjPkxWbA)
 
 #### 2019
 
@@ -107,7 +111,7 @@ library(DT)
 datatable(cw126, rownames = FALSE,  options = list(pageLength = 5, scrollX=T,columnDefs=list(list(targets=2,visible=FALSE),list(className = 'dt-center', targets = 1:4))) )%>%
   formatStyle(
     'Test_1',
-    color = styleInterval(c(0.5, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.49, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('Test_1', 0)
 ```
 
