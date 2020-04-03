@@ -19,26 +19,30 @@ Office  : W16
 Email   : tmutusva@hit.ac.zw
 
 Phone   : +263242 741428-30 Ext 2372
+
+Facebook: @hitmathematics
 </div>
 
 Assessment shall comprise of 3 in class tests, one assignment and an end of semester examination. The end of semester examination counts 75%, and the continuous assessment counts 25% towards the final mark. Only those who score an average of 50% in the 3 tests will be allowed to write the end of semester 
 examination. All tests and the exam are mandatory. Discuss any potential conflicts well before the test/exam date.
 
 
-### Quiz/Tutorials
+### Lectures/Quiz
 
+[Sieve of Eratosthenes](https://spark.adobe.com/page/OBBCMVGXaKuOX/)
 
-Quizzes are  compulsory and will contribute to the final coursework mark.
-
- To acquaint yourself with the quiz format click the link [Sample Number Theory Quiz](https://docs.google.com/forms/d/e/1FAIpQLScy3k8AtifIXN-G8Pu49wFGMN5_fGQ71DOb-1DiTHdEr9oEYg/viewform?usp=sf_link)
-Tutorials will have the same format as quizzes. The only difference will be that they will give detailed solutions after submission.
-
-**Quiz 1** has been scheduled for Friday, 17 April 2020. The quiz will be on Primes congruences and functions. The link to the quiz will be posted here.
+[Rstudio: Number Theory](rs2.html)
 
 [Solved Problems](https://spark.adobe.com/page/0cMkXls6nSsTV/). This link will be
 updated on a weekly basis.
 
-<script id="asp-embed-script" data-zindex="1000000" type="text/javascript" charset="utf-8" src="https://spark.adobe.com/page-embed.js"></script><a class="asp-embed-link" href="https://spark.adobe.com/page/0cMkXls6nSsTV/" target="_blank"><img src="https://spark.adobe.com/page/0cMkXls6nSsTV/embed.jpg?buster=1585819426476" alt="Number Theory" style="width:100%" border="0" /></a>
+
+
+***
+**Quiz 1** has been scheduled for Friday, 17 April 2020. The quiz will be on Primes congruences and functions. The link to the quiz will be posted here.
+
+
+
 
 ### Course Content
 (@) Divisibility, Modular Arithmetic.
@@ -54,13 +58,7 @@ For the detailed Course Outline click the link below:
 
 
 
-***
 
-### Lecture Notes
-
-[Sieve of Eratosthenes](https://spark.adobe.com/page/OBBCMVGXaKuOX/)
-
-[Rstudio: Number Theory](rs2.html)
 
 ***
 ### Worksheets
