@@ -10,6 +10,10 @@ output:
 
 
 ## **HIT Mathematics** {.tabset .tabset-fade}
+<center>
+![](rhead.png){ width=99% }
+</center>
+
 
 ### <span style="color:orange"> **Notices**
 Assessment for the courses shall be based on continuous assessment as well as Institute examinations. Continuous assessment will contribute 25% of the overall assessment mark of that course. Continuous assessment dates are as follows:
