@@ -31,7 +31,7 @@ examination. All tests and the exam are mandatory. Discuss any potential conflic
 
 ### Lectures/Quiz
 ***
-
+<img src="122T.png" style="width:45%; border:1px solid; margin-right: 20px" align="right">
 
 
 [ Linear Algebra (Lecture)](https://spark.adobe.com/page/LQZ536TE2sFA9/)
@@ -41,14 +41,7 @@ examination. All tests and the exam are mandatory. Discuss any potential conflic
 [ODEs Solved Problems](https://spark.adobe.com/page/5IMuQzmSAr4bo/)
 
 
-***
-<center>
-![](122T.png){ width=50% }
-</center>
 
-
-
-***
 
 **Quiz 1** has been scheduled for Thursday, 2 April 2020. The quiz will be on ODEs. [Click Here to access Quiz 1(ODEs)](https://docs.google.com/forms/d/e/1FAIpQLSe6IUkd5_b-nviKOfPYfUTx5TfTaESUmiwhceVLoxctNqdrmQ/viewform?usp=sf_link)
 
