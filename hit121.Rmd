@@ -55,21 +55,17 @@ While physical congregation  for classes has been suspended, online learning wil
 
 ### Quiz/Tutorial
 ***
-<center>
-![](121T.png){ width=50% }
-</center>
-***
 
-
+<img src="121T.png" style="width:45%; border:1px solid; margin-right: 20px" align="right">
 
 
 [Solved problems](https://spark.adobe.com/page/7jrCE8B0vNMtf/)
 
-***
+
 **Facebook**
 You can now communicate with us on facebook [Click here to go to our facebook page](https://www.facebook.com/hitmathematics/)
 
-***
+
 
 
 **Quiz 1** has been scheduled for Tuesday, 31 March 2020. The quiz will be on linear algebra. [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdkz41ZNXnV9_X-OsYIjZKhwJ2M3svrwVwl2nl7yTp8yk-LRg/viewform?usp=sf_link) to access the quiz.
