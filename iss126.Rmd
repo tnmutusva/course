@@ -33,7 +33,9 @@ examination. All tests and the exam are mandatory. Discuss any potential conflic
 
 [Rstudio: Number Theory](rs2.html)
 
-[Solved Problems](https://spark.adobe.com/page/0cMkXls6nSsTV/). This link will be
+[Linear Congruences](https://spark.adobe.com/page/bA8Ay1mOKEjAW/)
+
+[Primes, Arithmetic Functions](https://spark.adobe.com/page/0cMkXls6nSsTV/). This link will be
 updated on a weekly basis.
 
 
