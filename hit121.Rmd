@@ -54,14 +54,18 @@ While physical congregation  for classes has been suspended, online learning wil
 </div>
 
 ### Quiz/Tutorial
-***
 
-<img src="121T.png" style="width:45%; border:1px solid; margin-right: 20px" align="right">
+***
+<center>
+![](121q.png){ width=100% }
+</center>
+
+***
 
 
 [Solved problems](https://spark.adobe.com/page/7jrCE8B0vNMtf/)
 
-
+***
 **Facebook**
 You can now communicate with us on facebook [Click here to go to our facebook page](https://www.facebook.com/hitmathematics/)
 
@@ -74,6 +78,8 @@ You can now communicate with us on facebook [Click here to go to our facebook pa
 
 **Note:** Quizzes  are compulsory and will contribute to your final coursework mark.
 <center>
+
+***
 **Abuse of Webpage**
 </center>
 
