@@ -28,6 +28,13 @@ examination. All tests and the exam are mandatory. Discuss any potential conflic
 
 
 ### Lectures/Quiz
+***
+<center>
+![](126T.png){ width=50% }
+</center>
+
+***
+
 
 [Sieve of Eratosthenes](https://spark.adobe.com/page/OBBCMVGXaKuOX/)
 
@@ -41,7 +48,6 @@ updated on a weekly basis.
 
 
 ***
-**Quiz 1** has been scheduled for Friday, 17 April 2020. The quiz will be on Primes congruences and functions. The link to the quiz will be posted here.
 
 
 
