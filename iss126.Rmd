@@ -29,11 +29,8 @@ examination. All tests and the exam are mandatory. Discuss any potential conflic
 
 ### Lectures/Quiz
 ***
-<center>
-![](126T.png){ width=50% }
-</center>
+<img src="126T.png" style="width:45%; border:1px solid; margin-right: 20px" align="right">
 
-***
 
 
 [Sieve of Eratosthenes](https://spark.adobe.com/page/OBBCMVGXaKuOX/)
@@ -47,7 +44,7 @@ updated on a weekly basis.
 
 
 
-***
+
 
 
 
