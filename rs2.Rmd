@@ -23,6 +23,8 @@ library(numbers)
 ### **Introduction**
 If $a$ and $b$ are integers with $b\neq 0$, we say that $b$ divides $a$ if there exists an integer $c$ such that $a=bc$. The notation $b\mid a$ denotes that $b$ divides $a$.
 
+***
+
 ### **Divisors**
 
 divisors($n$) Generates a list of divisors of an integer number ($n$). The list of all divisors of an integer $n$ will be calculated and returned in ascending order, including 1 and the number itself. For $n\geq 1000$ the list of prime factors of n will be used, for smaller $n$ a total search is applied.
@@ -47,20 +49,23 @@ Divisors of 60
 divisors(60)
 ```
 
+***
+
 ### **mod**
 
-mod($n,\, m$) is the modulo operator and returns $n\, \mod m$.
+mod($n,\, m$) is the modulo operator and returns $n\, \mod m$. It uses the division algorithm to evaluate the remainder.
 
 ```{r}
 mod(13,2)
 ```
 
-rem($n,\, m$) is the same as the modulo operator and returns $n\, \mod m$.
+rem($n,\, m$) is the same as the modulo operator and returns $n\, \mod m$(for positive $n$).
 
 ```{r}
 rem(13,2)
 ```
 
+***
 
 ### **GCD & LCM  **
 
@@ -82,6 +87,8 @@ LCM(341,527)
 ### **Introduction**
 
 An integer $p$ greater than 1 is called prime if the only positive factors of $p$ are 1 and $p$. A positive integer that is greater than 1 and is not prime is called composite.
+
+***
 
 ### **Primes**
 
@@ -107,5 +114,5 @@ primeFactors(88)
 
 
 ***
-Trevor. N. Mutusva, February 2020.
+Trevor. N. Mutusva,  2020.
 
