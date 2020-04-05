@@ -43,7 +43,9 @@ examination. All tests and the exam are mandatory. Discuss any potential conflic
 
 [Ordinary Differential Equations(Formulas)](https://drive.google.com/open?id=1iGQ5TX46yhYvN31PuscJLMq59ek4OYVZ)
 
-[ODEs Solved Problems](https://spark.adobe.com/page/5IMuQzmSAr4bo/)
+[ODEs: Solved Problems](https://spark.adobe.com/page/5IMuQzmSAr4bo/)
+
+[Vector Calculus: Solved Problems](https://spark.adobe.com/page/UTENv8xUsl6Es/)
 
 ***
 
