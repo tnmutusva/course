@@ -29,7 +29,7 @@ examination. All tests and the exam are mandatory. Discuss any potential conflic
 
 ### Lectures/Quiz
 ***
-<img src="126T.png" style="width:45%; border:1px solid; margin-right: 20px" align="right">
+<img src="126T.png" style="width:50%; border:1px solid; margin-right: 1px" align="right">
 
 
 
