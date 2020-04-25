@@ -67,6 +67,17 @@ Submissions open at 00:00 on Thursday, 23 April 2020.
 
 Submissions close at 23:59 on Thursday, 23 April 2020.
 
+```{r echo=FALSE}
+library(readxl)
+cw122<- read_excel("1212020cw2.xlsx")
+library(DT)
+datatable(cw122, rownames = FALSE,caption = 'For quick access, type your surname in the search box.',  options = list(pageLength = 5, scrollX=T,columnDefs=list(list(targets=3,visible=FALSE),list(className = 'dt-center', targets = 1:4))) ) %>%
+  formatStyle(
+    'Quiz_2',
+    color = styleInterval(c(0.5, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+  formatPercentage('Quiz_2', 0)
+```
+
 ***
 
 
