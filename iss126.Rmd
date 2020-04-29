@@ -32,9 +32,7 @@ examination. All tests and the exam are mandatory. Discuss any potential conflic
 <img src="126T2.png" style="width:50%; border:1px solid; margin-right: 1px" align="right">
 
 
-[Test 2 (2020)](https://drive.google.com/open?id=1Cb2aWpPo_noqLg84hjXv3nYOFWrCbk0k)
 
-[Click here to submit your Test](https://docs.google.com/forms/d/e/1FAIpQLSdbf3Ud3g6BRQM-7HAegbzOdisUwb_9zsvqEzOMnkh16JM7-Q/viewform?usp=sf_link)
 
 [Sieve of Eratosthenes](https://spark.adobe.com/page/OBBCMVGXaKuOX/)
 
@@ -42,8 +40,13 @@ examination. All tests and the exam are mandatory. Discuss any potential conflic
 
 [Linear Congruences](https://spark.adobe.com/page/bA8Ay1mOKEjAW/)
 
-[Primes, Arithmetic Functions](https://spark.adobe.com/page/0cMkXls6nSsTV/). This link will be
+[Primes, Arithmetic Functions, Quadratic Residues, Symbols](https://spark.adobe.com/page/0cMkXls6nSsTV/). This link will be
 updated on a weekly basis.
+
+
+[Test 2 (2020)](https://drive.google.com/open?id=1Cb2aWpPo_noqLg84hjXv3nYOFWrCbk0k)
+
+
 
 
 
