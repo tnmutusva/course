@@ -77,10 +77,6 @@ Submissions close at 23:59 on Thursday, 2 April 2020.
 Submissions close: 23:59 on Thursday, 26 March 2020. 
 
 
-Can the followig please learn to follow instructions:
-BVUMA, DAMBIRANWA, MASHONGWA. Only the first letter was supposed to uppercase.
-
-Mwawa Tanyaradzwa, Marondedze Tendai H. You were asked to enter your surname only.
 
 [ODEs Solved Problems](https://spark.adobe.com/page/5IMuQzmSAr4bo/)
 
@@ -158,19 +154,27 @@ For the detailed Course Outline click the link below:
 
 
 
+
+
+
+
 ```{r echo=FALSE}
 library(readxl)
-cw122<- read_excel("1222020cw.xlsx")
+cw1223<- read_excel("1222020cw3.xlsx")
 library(DT)
-datatable(cw122, rownames = FALSE,caption = 'For fast access, type your surname in the search box.',  options = list(pageLength = 5, scrollX=T,columnDefs=list(list(targets=2,visible=FALSE),list(className = 'dt-center', targets = 1:5))) ) %>%
+datatable(cw1223, rownames = FALSE,caption = 'For fast access, type your surname in the search box.',  options = list(order = list(list(0, 'asc')),pageLength = 5, scrollX=T,columnDefs=list(list(targets=2,visible=FALSE),list(className = 'dt-center', targets = 1:6))) ) %>%
   formatStyle(
     'Test_1',
-    color = styleInterval(c(0.49, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('Test_1', 0)%>%
   formatStyle(
     'Quiz_1',
-    color = styleInterval(c(0.49, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
-  formatPercentage('Quiz_1', 0)
+    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+  formatPercentage('Quiz_1', 0)%>%
+  formatStyle(
+    'Quiz_2',
+    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+  formatPercentage('Quiz_2', 0)
 ```
 
 
