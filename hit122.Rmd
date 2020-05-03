@@ -43,6 +43,8 @@ examination. All tests and the exam are mandatory. Discuss any potential conflic
 
 [Laplace Transforms (Lecture)](https://spark.adobe.com/page/atrXte6NsipNh/)
 
+<script id="asp-embed-script" data-zindex="1000000" type="text/javascript" charset="utf-8" src="https://spark.adobe.com/page-embed.js"></script><a class="asp-embed-link" href="https://spark.adobe.com/page/atrXte6NsipNh/" target="_blank"><img src="https://spark.adobe.com/page/atrXte6NsipNh/embed.jpg?buster=1588549407896" alt="Laplace Transforms" style="width:100%" border="0" /></a>
+
 ***
 
 <center>
