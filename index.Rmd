@@ -37,8 +37,8 @@ footnote( symbol = c("Tests/Quizzes are compulsory."))
 + Submision dates: 18-22 May 2020.
 + Although not mandatory, students are encouraged to redo the continuous assessment. 
 
-***
-<script id="asp-embed-script" data-zindex="1000000" type="text/javascript" charset="utf-8" src="https://spark.adobe.com/page-embed.js"></script><a class="asp-embed-link" href="https://spark.adobe.com/page/UTENv8xUsl6Es/" target="_blank"><img src="https://spark.adobe.com/page/UTENv8xUsl6Es/embed.jpg?buster=1588542268915" alt="Vector Calculus" style="width:60%" border="0" /></a>
+
+
 
 
 
