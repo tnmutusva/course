@@ -55,9 +55,11 @@ While physical congregation  for classes has been suspended, online learning wil
 
 ### Quiz/Tutorial
 
-<center>
-[![](121q.png){ width=100% }](https://docs.google.com/forms/d/e/1FAIpQLSesWlutMbkaeOw6tuJjrAcFf6P42kbI6QOfKEqbcyfNWfaNHw/viewform?usp=sf_link)
-</center>
+<script id="asp-embed-script" data-zindex="1000000" type="text/javascript" charset="utf-8" src="https://spark.adobe.com/page-embed.js"></script><a class="asp-embed-link" href="https://spark.adobe.com/page/atrXte6NsipNh/" target="_blank"><img src="https://spark.adobe.com/page/atrXte6NsipNh/embed.jpg?buster=1588549407896" alt="Laplace Transforms" style="width:100%" border="0" /></a>
+
+
+
+***
 
 [Vector Calculus Quiz(Click Here)](https://docs.google.com/forms/d/e/1FAIpQLSesWlutMbkaeOw6tuJjrAcFf6P42kbI6QOfKEqbcyfNWfaNHw/viewform?usp=sf_link)
 
@@ -96,9 +98,9 @@ cw122<- read_excel("1212020cw.xlsx")
 
 
 ```{r echo=FALSE}
-cw121q12<- read_excel("cw121q12.xlsx")
+cw121q123<- read_excel("cw121q123.xlsx")
 library(DT)
-datatable(cw121q12, rownames = FALSE,caption = 'For fast access, type your surname in the search box.',  options = list(order = list(list(1, 'asc')),pageLength = 5, scrollX=T,columnDefs=list(list(className = 'dt-center', targets = 2:4))),colnames= c("Registration","Surname","Department","Quiz 1","Quiz 2") ) %>%
+datatable(cw121q123, rownames = FALSE,caption = 'For fast access, type your surname in the search box.',  options = list(order = list(list(1, 'asc')),pageLength = 5, scrollX=T,columnDefs=list(list(className = 'dt-center', targets = 2:5))),colnames= c("Registration","Surname","Department","Quiz 1","Quiz 2","Quiz 3") ) %>%
   formatStyle(
     'Quiz_1',
     color = styleInterval(c(0.49, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
@@ -106,7 +108,11 @@ datatable(cw121q12, rownames = FALSE,caption = 'For fast access, type your surna
   formatStyle(
     'Quiz_2',
     color = styleInterval(c(0.49, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
-  formatPercentage('Quiz_2', 0)
+  formatPercentage('Quiz_2', 0)%>%
+  formatStyle(
+    'Quiz_3',
+    color = styleInterval(c(0.49, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+  formatPercentage('Quiz_3', 0)
 ```
 
 
