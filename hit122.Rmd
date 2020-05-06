@@ -47,9 +47,7 @@ examination. All tests and the exam are mandatory. Discuss any potential conflic
 
 ***
 
-<center>
-[![](122q.png){ width=100% }](https://docs.google.com/forms/d/e/1FAIpQLSf17_CnxkT3D9nQkjiTNLKeN-XRT8v3iXyMBj1pn6qCk9qRlw/viewform?usp=sf_link)
-</center>
+
 
 [Vector Calculus Quiz(Click Here)](https://docs.google.com/forms/d/e/1FAIpQLSf17_CnxkT3D9nQkjiTNLKeN-XRT8v3iXyMBj1pn6qCk9qRlw/viewform?usp=sf_link)
 
@@ -72,7 +70,6 @@ Submissions close at 23:59 on Thursday, 2 April 2020.
 
 **Note:** Quizzes  are compulsory and will contribute to your final coursework mark.
 
-**It seems as if DAMBIRANWA and  MASHONGWA do not understand english. Can the class representatives, or any one who can translate to them that only the first letter is supposed to uppercase.**
 
 ***
 
@@ -118,7 +115,8 @@ For the detailed Course Outline click the link below:
 
 #### **2020**
 
-[Worksheet 1 (2020)](https://drive.google.com/open?id=13pMST2W6B8Ytjfa8lRZQnlEUL2usWvQ3), [Worksheet 2 (2020)](https://drive.google.com/open?id=1VmoJBGaLT9TIxtDfajOqnGA1DBEMtqMc), [Worksheet 3 (2020)](https://drive.google.com/open?id=1DWTRoYeZ4EcxZpnqtZYs4nUGZ7IweM9m)
+[Worksheet 1 (2020)](https://drive.google.com/open?id=13pMST2W6B8Ytjfa8lRZQnlEUL2usWvQ3), [Worksheet 2 (2020)](https://drive.google.com/open?id=1VmoJBGaLT9TIxtDfajOqnGA1DBEMtqMc), [Worksheet 3 (2020)](https://drive.google.com/open?id=1DWTRoYeZ4EcxZpnqtZYs4nUGZ7IweM9m),
+[Worksheet 4 (2020)](https://drive.google.com/open?id=1yXrgJ5qmgxUumV1ectz7xPPtQIO9v_lk)
 
 
 
@@ -166,7 +164,7 @@ For the detailed Course Outline click the link below:
 library(readxl)
 cw1223<- read_excel("1222020cw3.xlsx")
 library(DT)
-datatable(cw1223, rownames = FALSE,caption = 'For fast access, type your surname in the search box.',  options = list(order = list(list(0, 'asc')),pageLength = 5, scrollX=T,columnDefs=list(list(targets=2,visible=FALSE),list(className = 'dt-center', targets = 1:6))) ) %>%
+datatable(cw1223, rownames = FALSE,caption = 'For fast access, type your surname in the search box.',  options = list(order = list(list(0, 'asc')),pageLength = 100, scrollX=T,columnDefs=list(list(targets=2,visible=FALSE),list(className = 'dt-center', targets = 1:6))) ) %>%
   formatStyle(
     'Test_1',
     color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
