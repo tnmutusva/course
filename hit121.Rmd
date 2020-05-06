@@ -100,7 +100,7 @@ cw122<- read_excel("1212020cw.xlsx")
 ```{r echo=FALSE}
 cw121q123<- read_excel("cw121q123.xlsx")
 library(DT)
-datatable(cw121q123, rownames = FALSE,caption = 'For fast access, type your surname in the search box.',  options = list(order = list(list(1, 'asc')),pageLength = 5, scrollX=T,columnDefs=list(list(className = 'dt-center', targets = 2:5))),colnames= c("Registration","Surname","Department","Quiz 1","Quiz 2","Quiz 3") ) %>%
+datatable(cw121q123, rownames = FALSE,caption = 'For fast access, type your surname in the search box.',  options = list(order = list(list(1, 'asc')),pageLength = 100, scrollX=T,columnDefs=list(list(className = 'dt-center', targets = 2:5))),colnames= c("Registration","Surname","Department","Quiz 1","Quiz 2","Quiz 3") ) %>%
   formatStyle(
     'Quiz_1',
     color = styleInterval(c(0.49, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
