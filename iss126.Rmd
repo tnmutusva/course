@@ -29,7 +29,7 @@ examination. All tests and the exam are mandatory. Discuss any potential conflic
 
 ### Lectures/Quiz
 ***
-<img src="126T2.png" style="width:50%; border:1px solid; margin-right: 1px" align="right">
+<img src="126T2.png" style="width:48%; border:1px solid; margin-right: 1px" align="right">
 
 
 
@@ -40,12 +40,12 @@ examination. All tests and the exam are mandatory. Discuss any potential conflic
 
 [Linear Congruences](https://spark.adobe.com/page/bA8Ay1mOKEjAW/)
 
-[Primes, Arithmetic Functions, Quadratic Residues, Symbols](https://spark.adobe.com/page/0cMkXls6nSsTV/). This link will be
-updated on a weekly basis.
+[Primes, Arithmetic Functions, Quadratic Residues, Symbols](https://spark.adobe.com/page/0cMkXls6nSsTV/). 
 
 
 [Test 2 (2020)](https://drive.google.com/open?id=1Cb2aWpPo_noqLg84hjXv3nYOFWrCbk0k)
 
+<script id="asp-embed-script" data-zindex="1000000" type="text/javascript" charset="utf-8" src="https://spark.adobe.com/page-embed.js"></script><a class="asp-embed-link" href="https://spark.adobe.com/page/KUQPymtircAJQ/" target="_blank"><img src="https://spark.adobe.com/page/KUQPymtircAJQ/embed.jpg?buster=1589044570428" alt="CRT, Cryptography" style="width:50%" border="0" /></a>
 
 
 
@@ -81,7 +81,7 @@ For the detailed Course Outline click the link below:
 [Worksheet 2 (2020)](https://drive.google.com/open?id=1f0Lxov-3FO8I1UX61iU7rifLotwPfbGs),
 [Worksheet 3 (2020)](https://drive.google.com/open?id=14iLk0e6ghGeNqbR5KnfKzLHgWjPkxWbA)
 [Worksheet 4 (2020)](https://drive.google.com/open?id=1FPRWXdBD1N-cQsEO8X88hOi76sLJ0bn1)
-
+[Worksheet 5 (2020)](https://drive.google.com/open?id=17CZy3fz8s0iswWeS3UlVfQeuc-btJVZW)
 #### 2019
 
 [Worksheet 2 (2019)](https://drive.google.com/open?id=1IxQjHRzgl7pRVcLeZAmx08HDswfzDZXF),
