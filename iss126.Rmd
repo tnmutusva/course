@@ -113,7 +113,7 @@ datatable(cw126, rownames = FALSE,  options = list(pageLength = 5, scrollX=T,col
 ```
 
 
-### Coursework Information
+### Course Information
 
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
