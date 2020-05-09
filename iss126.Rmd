@@ -7,28 +7,15 @@ output:
       before_body: [include_header.html, include_lessons_nav.html]
       after_body: [include_lessons_nav_end.html, include_footer.html]
 ---
-## **Course information** {.tabset .tabset-fade}
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
-<div class = "blue">
-Lecturer: **T. Mutusva**
-
-Office  : W16
-
-Email   : tmutusva@hit.ac.zw
-
-Phone   : +263242 741428-30 Ext 2372
-
-Facebook: @hitmathematics
-</div>
-
-Assessment shall comprise of 3 in class tests, one assignment and an end of semester examination. The end of semester examination counts 75%, and the continuous assessment counts 25% towards the final mark. Only those who score an average of 50% in the 3 tests will be allowed to write the end of semester 
-examination. All tests and the exam are mandatory. Discuss any potential conflicts well before the test/exam date.
+## **ISS 126: Number Theory** {.tabset .tabset-fade}
 
 
 ### Lectures/Quiz
 ***
+
+<script id="asp-embed-script" data-zindex="1000000" type="text/javascript" charset="utf-8" src="https://spark.adobe.com/page-embed.js"></script><a class="asp-embed-link" href="https://spark.adobe.com/page/KUQPymtircAJQ/" target="_blank"><img src="https://spark.adobe.com/page/KUQPymtircAJQ/embed.jpg?buster=1589044570428" alt="CRT, Cryptography" style="width:100%" border="0" /></a>
+
+
 <img src="126T2.png" style="width:47%; border:1px solid; margin-right: 1px" align="right">
 
 
@@ -36,7 +23,7 @@ examination. All tests and the exam are mandatory. Discuss any potential conflic
 
 
 
-<script id="asp-embed-script" data-zindex="1000000" type="text/javascript" charset="utf-8" src="https://spark.adobe.com/page-embed.js"></script><a class="asp-embed-link" href="https://spark.adobe.com/page/KUQPymtircAJQ/" target="_blank"><img src="https://spark.adobe.com/page/KUQPymtircAJQ/embed.jpg?buster=1589044570428" alt="CRT, Cryptography" style="width:50%" border="0" /></a>
+
 
 
 [Sieve of Eratosthenes](https://spark.adobe.com/page/OBBCMVGXaKuOX/)
@@ -124,6 +111,27 @@ datatable(cw126, rownames = FALSE,  options = list(pageLength = 5, scrollX=T,col
     color = styleInterval(c(0.49, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('Test_1', 0)
 ```
+
+
+### Coursework Information
+
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+Lecturer: **T. Mutusva**
+
+Office  : W16
+
+Email   : tmutusva@hit.ac.zw
+
+Phone   : +263242 741428-30 Ext 2372
+
+Facebook: @hitmathematics
+</div>
+
+Assessment shall comprise of 3 in class tests, one assignment and an end of semester examination. The end of semester examination counts 75%, and the continuous assessment counts 25% towards the final mark. Only those who score an average of 50% in the 3 tests will be allowed to write the end of semester 
+examination. All tests and the exam are mandatory. Discuss any potential conflicts well before the test/exam date.
 
 ***
 
