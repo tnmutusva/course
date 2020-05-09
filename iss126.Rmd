@@ -7,11 +7,11 @@ output:
       before_body: [include_header.html, include_lessons_nav.html]
       after_body: [include_lessons_nav_end.html, include_footer.html]
 ---
-## **ISS 126: Number Theory** {.tabset .tabset-fade}
+##  {.tabset .tabset-fade}
 
 
 ### Lectures/Quiz
-***
+
 
 <script id="asp-embed-script" data-zindex="1000000" type="text/javascript" charset="utf-8" src="https://spark.adobe.com/page-embed.js"></script><a class="asp-embed-link" href="https://spark.adobe.com/page/KUQPymtircAJQ/" target="_blank"><img src="https://spark.adobe.com/page/KUQPymtircAJQ/embed.jpg?buster=1589044570428" alt="CRT, Cryptography" style="width:100%" border="0" /></a>
 
