@@ -10,7 +10,13 @@ output:
 ##  {.tabset .tabset-fade .tabset-pills}
 
 ### Lectures/Quiz
+
 ***
+
+<center>
+![](122q3.png){ width=100% }
+</center>
+
 
 [ Linear Algebra (Lecture)](https://spark.adobe.com/page/LQZ536TE2sFA9/)
 
