@@ -45,9 +45,7 @@ footnote( symbol = c("Tests/Quizzes are compulsory."))
 
 ***
 
-<center>
-**Website Built with**
-</center>
+
 <center>
 [![](logoRStudio.png){ width=8% }](https://rstudio.com)
 </center>
