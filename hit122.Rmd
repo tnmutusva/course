@@ -12,10 +12,16 @@ output:
 ### Lectures/Quiz
 
 ***
-
 <center>
-![](122q3.png){ width=100% }
+[![](122q3.png){ width=100% }](https://docs.google.com/forms/d/e/1FAIpQLSepvhB78qd4s8ohyYvP-3LX1YaD_QE0dfoK3UwIzWxS6aBDPQ/viewform?usp=sf_link)
 </center>
+
+[Laplace Transforms Quiz(Click Here)](https://docs.google.com/forms/d/e/1FAIpQLSepvhB78qd4s8ohyYvP-3LX1YaD_QE0dfoK3UwIzWxS6aBDPQ/viewform?usp=sf_link)
+
+Submissions open at 00:00 on Friday, 22 May 2020. 
+
+Submissions close at 23:59 on Friday, 22 May 2020.
+
 
 
 [ Linear Algebra (Lecture)](https://spark.adobe.com/page/LQZ536TE2sFA9/)
