@@ -11,7 +11,7 @@ output:
 
 ## **HIT Mathematics** {.tabset .tabset-fade}
 <center>
-![](rhead.png){ width=100% }
+![](rheada.png){ width=100% }
 </center>
 
 
