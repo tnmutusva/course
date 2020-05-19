@@ -13,7 +13,7 @@ output:
 
 
 <center>
-[![](121q4.png){ width=100% }](https://docs.google.com/forms/d/e/1FAIpQLSc6umoW0bc-EqYG5rQlZ1y_DBG-ehzpFLWvZqDT7RRwcgJYxw/viewform?usp=sf_link)
+[![](121q4a.png){ width=100% }](https://docs.google.com/forms/d/e/1FAIpQLSc6umoW0bc-EqYG5rQlZ1y_DBG-ehzpFLWvZqDT7RRwcgJYxw/viewform?usp=sf_link)
 </center>
 
 [Laplace Transforms Quiz(Click Here)](https://docs.google.com/forms/d/e/1FAIpQLSc6umoW0bc-EqYG5rQlZ1y_DBG-ehzpFLWvZqDT7RRwcgJYxw/viewform?usp=sf_link)
