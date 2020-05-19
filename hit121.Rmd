@@ -11,9 +11,17 @@ output:
 
 ### Quiz/Tutorial
 
+
 <center>
-![](121q4.png){ width=100% }
+[![](121q4.png){ width=100% }](https://docs.google.com/forms/d/e/1FAIpQLSc6umoW0bc-EqYG5rQlZ1y_DBG-ehzpFLWvZqDT7RRwcgJYxw/viewform?usp=sf_link)
 </center>
+
+[Laplace Transforms Quiz(Click Here)](https://docs.google.com/forms/d/e/1FAIpQLSc6umoW0bc-EqYG5rQlZ1y_DBG-ehzpFLWvZqDT7RRwcgJYxw/viewform?usp=sf_link)
+
+Submissions open at 00:00 on Tuesday, 26 May 2020. 
+
+Submissions close at 23:59 on Tuesday, 26 May 2020.
+
 
 
 <script id="asp-embed-script" data-zindex="1000000" type="text/javascript" charset="utf-8" src="https://spark.adobe.com/page-embed.js"></script><a class="asp-embed-link" href="https://spark.adobe.com/page/atrXte6NsipNh/" target="_blank"><img src="https://spark.adobe.com/page/atrXte6NsipNh/embed.jpg?buster=1588549407896" alt="Laplace Transforms" style="width:100%" border="0" /></a>
