@@ -10,8 +10,9 @@ output:
 
 
 ## **HIT Mathematics** {.tabset .tabset-fade}
+
 <center>
-![](rheada.png){ width=100% }
+![](notice3.png){ width=100% }
 </center>
 
 
