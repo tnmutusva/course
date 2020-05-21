@@ -12,19 +12,14 @@ output:
 
 ### Lectures/Quiz
 
-
-<script id="asp-embed-script" data-zindex="1000000" type="text/javascript" charset="utf-8" src="https://spark.adobe.com/page-embed.js"></script><a class="asp-embed-link" href="https://spark.adobe.com/page/KUQPymtircAJQ/" target="_blank"><img src="https://spark.adobe.com/page/KUQPymtircAJQ/embed.jpg?buster=1589044570428" alt="CRT, Cryptography" style="width:100%" border="0" /></a>
-
-
 <img src="126T2.png" style="width:47%; border:1px solid; margin-right: 1px" align="right">
 
 
+[Test 3 (pdf)](https://drive.google.com/open?id=1R55IMKkWyrACN1jWtxn8xg8XD1U6tESx)
 
+[Click here to submit Test 3](https://docs.google.com/forms/d/e/1FAIpQLSdP8MGZQn6a7B-vKEXkUaciQD07ZUSyi5n5IJsG2niAkwWsXA/viewform?usp=sf_link)
 
-
-
-
-
+[CRT, Cryptography](https://spark.adobe.com/page/KUQPymtircAJQ/)
 
 [Sieve of Eratosthenes](https://spark.adobe.com/page/OBBCMVGXaKuOX/)
 
@@ -103,7 +98,7 @@ For the detailed Course Outline click the link below:
 
 Candidates who submitted rmd files were awarded a maximum of 40%, you were instructed to knit your documents to HTML or Ms word. These rmd files could not be loaded in the scripts folder given above.
 
-Marking is still in progress. 
+**Marking is still in progress**. 
 
 For fast access, type your surname in the search box.
 
