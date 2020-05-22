@@ -13,14 +13,10 @@ output:
 
 ***
 <center>
-[![](122q3.png){ width=100% }](https://docs.google.com/forms/d/e/1FAIpQLSepvhB78qd4s8ohyYvP-3LX1YaD_QE0dfoK3UwIzWxS6aBDPQ/viewform?usp=sf_link)
+[![](notice3.png){ width=100% }](https://docs.google.com/forms/d/e/1FAIpQLSepvhB78qd4s8ohyYvP-3LX1YaD_QE0dfoK3UwIzWxS6aBDPQ/viewform?usp=sf_link)
 </center>
 
-[Laplace Transforms Quiz(Click Here)](https://docs.google.com/forms/d/e/1FAIpQLSepvhB78qd4s8ohyYvP-3LX1YaD_QE0dfoK3UwIzWxS6aBDPQ/viewform?usp=sf_link)
 
-Submissions open at 00:00 on Friday, 22 May 2020. 
-
-Submissions close at 23:59 on Friday, 22 May 2020.
 
 
 
@@ -34,7 +30,6 @@ Submissions close at 23:59 on Friday, 22 May 2020.
 
 [Laplace Transforms (Lecture)](https://spark.adobe.com/page/atrXte6NsipNh/)
 
-<script id="asp-embed-script" data-zindex="1000000" type="text/javascript" charset="utf-8" src="https://spark.adobe.com/page-embed.js"></script><a class="asp-embed-link" href="https://spark.adobe.com/page/atrXte6NsipNh/" target="_blank"><img src="https://spark.adobe.com/page/atrXte6NsipNh/embed.jpg?buster=1588549407896" alt="Laplace Transforms" style="width:100%" border="0" /></a>
 
 ***
 
@@ -73,16 +68,7 @@ Submissions close: 23:59 on Thursday, 26 March 2020.
 [ODEs Solved Problems](https://spark.adobe.com/page/5IMuQzmSAr4bo/)
 
 
-```{r echo=FALSE}
-library(readxl)
-ode122<- read_excel("1222020ode.xlsx")
-library(DT)
-datatable(ode122, rownames = FALSE,caption = 'For fast access, type your surname in the search box.',  options = list(pageLength = 5, scrollX=T,columnDefs=list(list(targets=1,visible=FALSE),list(className = 'dt-center', targets = 1:3))) ) %>%
-  formatStyle(
-    'Score',
-    color = styleInterval(c(0.5, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
-  formatPercentage('Score', 0)
-```
+
 
 
 ### Course Content
@@ -153,9 +139,9 @@ For the detailed Course Outline click the link below:
 
 ```{r echo=FALSE}
 library(readxl)
-cw1223<- read_excel("1222020cw3.xlsx")
+cw1223<- read_excel("1222020cwf.xlsx")
 library(DT)
-datatable(cw1223, rownames = FALSE,caption = 'For fast access, type your surname in the search box.',  options = list(order = list(list(0, 'asc')),pageLength = 100, scrollX=T,columnDefs=list(list(targets=2,visible=FALSE),list(className = 'dt-center', targets = 1:6))) ) %>%
+datatable(cw1223, rownames = FALSE,caption = 'For quick access, type your surname in the search box.',  options = list(order = list(list(0, 'asc')),pageLength = 100, scrollX=T,columnDefs=list(list(targets=2,visible=FALSE),list(className = 'dt-center', targets = 1:8))) ) %>%
   formatStyle(
     'Test_1',
     color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
@@ -167,7 +153,15 @@ datatable(cw1223, rownames = FALSE,caption = 'For fast access, type your surname
   formatStyle(
     'Quiz_2',
     color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
-  formatPercentage('Quiz_2', 0)
+  formatPercentage('Quiz_2', 0)%>%
+  formatStyle(
+    'Quiz_3',
+    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+  formatPercentage('Quiz_3', 0)%>%
+  formatStyle(
+    'CW',
+    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+  formatPercentage('CW', 0)
 ```
 
 
