@@ -76,23 +76,23 @@ library(DT)
 datatable(cw121q1234, rownames = FALSE,caption = 'For fast access, type your surname in the search box.',  options = list(order = list(list(1, 'asc')),pageLength = 100, scrollX=T,columnDefs=list(list(className = 'dt-center', targets = 2:5))),colnames= c("Registration","Surname","Department","Quiz 1","Quiz 2","Quiz 3","Quiz 4","CW") ) %>%
   formatStyle(
     'Quiz_1',
-    color = styleInterval(c(0.49, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('Quiz_1', 0)%>%
   formatStyle(
     'Quiz_2',
-    color = styleInterval(c(0.49, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('Quiz_2', 0)%>%
   formatStyle(
     'Quiz_3',
-    color = styleInterval(c(0.49, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('Quiz_3', 0)%>%
   formatStyle(
     'Quiz_4',
-    color = styleInterval(c(0.49, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('Quiz_4', 0)%>%
   formatStyle(
     'CW',
-    color = styleInterval(c(0.49, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('CW', 0)
 
 ```
