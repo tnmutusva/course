@@ -12,10 +12,6 @@ output:
 ### Lectures/Quiz
 
 ***
-<center>
-[![](notice3.png){ width=100% }](https://docs.google.com/forms/d/e/1FAIpQLSepvhB78qd4s8ohyYvP-3LX1YaD_QE0dfoK3UwIzWxS6aBDPQ/viewform?usp=sf_link)
-</center>
-
 
 
 
