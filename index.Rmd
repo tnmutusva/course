@@ -11,9 +11,8 @@ output:
 
 ## **HIT Mathematics** {.tabset .tabset-fade}
 
-<center>
-![](notice3.png){ width=100% }
-</center>
+
+
 
 
 ### <span style="color:orange"> **Notices**
