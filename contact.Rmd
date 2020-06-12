@@ -9,7 +9,7 @@ output:
 
 
 
-<img src="c1.png" style="width:57%; border:1px solid; margin-right: 1px" align="right">
+<img src="c2.png" style="width:57%; border:1px solid; margin-right: 1px" align="right">
 
 Office W16
 
