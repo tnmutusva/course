@@ -7,11 +7,9 @@ output:
       before_body: [include_header.html, include_header_navpage.html]
 ---
 
-<center>
-![](rtnm.png){ width=100% }
-</center>
 
 
+<img src="c1.png" style="width:57%; border:1px solid; margin-right: 1px" align="right">
 
 Office W16
 
