@@ -1,0 +1,24 @@
+---
+title: "Contact"
+output:
+  html_document:
+    toc_float: false
+    includes:
+      before_body: [include_header.html, include_header_navpage.html]
+---
+
+<center>
+![](rtnm.png){ width=100% }
+</center>
+
+
+
+Office W16
+
+Email: tmutusva@hit.ac.zw
+
+Phone: +263242 741428-30 Ext 2372
+
+Website: tnmutusva.github.io/course
+
+
