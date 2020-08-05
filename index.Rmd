@@ -9,9 +9,12 @@ output:
 ---
 
 
+
 ## **HIT Mathematics** {.tabset .tabset-fade}
 
-
+<center>
+![](covid.jpg){ width=100% }
+</center>
 
 
 
