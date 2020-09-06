@@ -98,7 +98,7 @@ For the detailed Course Outline click the link below:
 
 Candidates who submitted rmd files were awarded a maximum of 40%, you were instructed to knit your documents to HTML or Ms word. These rmd files could not be loaded in the scripts folder given above.
 
-**Coursework marks will be published on 8 September**. 
+**Coursework marks will be published on 14 September**. 
 
 For fast access, type your surname in the search box.
 
