@@ -11,6 +11,9 @@ output:
 
 ### Quiz/Tutorial
 
+<center>
+![](hit1212020spp.PNG){ width=100% }
+</center>
 
 
 ***
