@@ -16,6 +16,9 @@ output:
 ![](covid.jpg){ width=100% }
 </center>
 
+<center>
+![](hit1212020spp.PNG){ width=80% }
+</center>
 
 
 ### <span style="color:orange"> **Notices**
