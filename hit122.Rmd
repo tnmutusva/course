@@ -11,6 +11,10 @@ output:
 
 ### Lectures/Quiz
 
+<center>
+![](1222020n1.PNG){ width=65% }
+</center>
+
 ***
 
 
