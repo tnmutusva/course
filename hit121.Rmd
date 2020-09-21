@@ -69,11 +69,10 @@ cw122<- read_excel("1212020cw.xlsx")
 
 
 
-
 ```{r echo=FALSE}
-cw121q1234<- read_excel("cw121q1234.xlsx")
+cw1212020final<- read_excel("hit1212020cwfinal.xlsx")
 library(DT)
-datatable(cw121q1234, rownames = FALSE,caption = 'For fast access, type your surname in the search box.',  options = list(order = list(list(1, 'asc')),pageLength = 100, scrollX=T,columnDefs=list(list(className = 'dt-center', targets = 2:5))),colnames= c("Registration","Surname","Department","Quiz 1","Quiz 2","Quiz 3","Quiz 4","CW") ) %>%
+datatable(cw1212020final, rownames = FALSE,caption = 'For fast access, type your surname in the search box.',  options = list(order = list(list(1, 'asc')),pageLength = 100, scrollX=T,columnDefs=list(list(className = 'dt-center', targets = 2:5))),colnames= c("Registration","Surname","Department","Quiz 1","Quiz 2","Quiz 3","Quiz 4","CW") ) %>%
   formatStyle(
     'Quiz_1',
     color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
@@ -96,6 +95,11 @@ datatable(cw121q1234, rownames = FALSE,caption = 'For fast access, type your sur
   formatPercentage('CW', 0)
 
 ```
+ 
+
+
+
+
 
 
 
