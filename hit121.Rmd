@@ -69,10 +69,13 @@ cw122<- read_excel("1212020cw.xlsx")
 
 
 
+
+
 ```{r echo=FALSE}
-cw1212020final<- read_excel("hit1212020cwfinal.xlsx")
+library(readxl)
+cw121final<- read_excel("cw121finalxx.xlsx")
 library(DT)
-datatable(cw1212020final, rownames = FALSE,caption = 'For fast access, type your surname in the search box.',  options = list(order = list(list(1, 'asc')),pageLength = 100, scrollX=T,columnDefs=list(list(className = 'dt-center', targets = 2:5))),colnames= c("Registration","Surname","Department","Quiz 1","Quiz 2","Quiz 3","Quiz 4","CW") ) %>%
+datatable(cw121final, rownames = FALSE,caption = 'For quick access, type your surname in the search box.',  options = list(order = list(list(1, 'asc')),pageLength = 100, scrollX=T,columnDefs=list(list(targets=7,visible=FALSE),list(className = 'dt-center', targets = 1:8))) ) %>%
   formatStyle(
     'Quiz_1',
     color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
@@ -91,14 +94,8 @@ datatable(cw1212020final, rownames = FALSE,caption = 'For fast access, type your
   formatPercentage('Quiz_4', 0)%>%
   formatStyle(
     'CW',
-    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
-  formatPercentage('CW', 0)
-
+    color = styleInterval(c(49.5, 75), c('red', 'black', 'green')), fontWeight = 'bold') 
 ```
- 
-
-
-
 
 
 
