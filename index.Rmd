@@ -16,9 +16,6 @@ output:
 ![](covid.jpg){ width=100% }
 </center>
 
-<center>
-![](hit1212020spp.PNG){ width=80% }
-</center>
 
 
 ### <span style="color:orange"> **Notices**
@@ -36,12 +33,7 @@ footnote( symbol = c("Tests/Quizzes are compulsory."))
 
 *** 
 
-#### **Information to students carrying mathematics courses**
 
-+ Students who intend to use coursework marks from the previous year must apply at their respective departments.
-+ The endorsed applications from the departments must be submitted to the mathematics department. 
-+ Submision dates: 18-22 May 2020.
-+ Although not mandatory, students are encouraged to redo the continuous assessment. 
 
 
 
@@ -61,6 +53,13 @@ footnote( symbol = c("Tests/Quizzes are compulsory."))
 </center>
 
 
+
+### **ICS/IIT/ISE 114**
+[Foundations of Mathematics (click here)](https://spark.adobe.com/page/AbvajQfhXv91p/)
+
+### **ICS/ISE 215**
+[Operation research(click here)](https://spark.adobe.com/page/J9EVeozp5LDhh/)
+
 ### **HIT 121**
 [HIT 121: Engineering Mathematics II](hit121.html)
 
@@ -70,7 +69,7 @@ footnote( symbol = c("Tests/Quizzes are compulsory."))
 ### **ISS 126**
 [ISS 126: Number Theory](iss126.html)
 
-### **ICS 226/ISE 225**
+### **ICS 226**
 [ICS 226/ISE 225: Numerical Analysis](ics225.html)
 
 
