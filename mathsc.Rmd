@@ -18,6 +18,9 @@ output:
 (@) To be admitted to any Institute examination, a candidate must have passed continuous assessment of the relevant course as prescribed by the School Regulations.
 
 ***
+### [ICS/IIT/ISE 114: Foundations of Mathematics](https://spark.adobe.com/page/AbvajQfhXv91p/)
+
+### [ICS/ISE 215:Operation research](https://spark.adobe.com/page/J9EVeozp5LDhh/)
 ## [HIT 121: Engineering Mathematics II](hit121.html){.continue-link}
 ## [HIT 122: Mathematics For Technologists II](hit122.html){.continue-link}
 ## [ISS 126: Number Theory](iss126.html){.continue-link}
