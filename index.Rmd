@@ -53,12 +53,18 @@ footnote( symbol = c("Tests/Quizzes are compulsory."))
 </center>
 
 
+### **HIT 113**
+[Mathematics For Technologists I (click here)](https://spark.adobe.com/page/ZoaxLXcmsEkkV/)
 
 ### **ICS/IIT/ISE 114**
 [Foundations of Mathematics (click here)](https://spark.adobe.com/page/AbvajQfhXv91p/)
 
 ### **ICS/ISE 215**
-[Operation research(click here)](https://spark.adobe.com/page/J9EVeozp5LDhh/)
+[Operation Research (click here)](https://spark.adobe.com/page/J9EVeozp5LDhh/)
+
+### **SST 216**
+[Biostatistics (click here)](https://spark.adobe.com/page/doqx2cHBZFQQ4/)
+
 
 ### **HIT 121**
 [HIT 121: Engineering Mathematics II](hit121.html)
