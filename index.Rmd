@@ -12,9 +12,6 @@ output:
 
 ## **HIT Mathematics** {.tabset .tabset-fade}
 
-<center>
-![](covid.jpg){ width=100% }
-</center>
 
 
 
@@ -32,6 +29,10 @@ footnote( symbol = c("Tests/Quizzes are compulsory."))
 ```
 
 *** 
+<center>
+![](covid.jpg){ width=100% }
+</center>
+
 
 
 
