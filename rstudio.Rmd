@@ -29,6 +29,8 @@ R, like S, is designed around a true computer language, and it allows users to a
  [Rstudio: Number Theory](rs2.html)
  
  [Rstudio: Linear Algebra](rs1.html)
+ 
+  [Rstudio: Linear Programming](lpp.html)
 
 ### Rstudio
 
