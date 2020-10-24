@@ -11,91 +11,12 @@ output:
 
 ### Quiz/Tutorial
 
-<center>
-![](hit1212020spp.PNG){ width=100% }
-</center>
-
-
-***
-
-[Laplace Transforms Quiz(Click Here)](https://docs.google.com/forms/d/e/1FAIpQLSc6umoW0bc-EqYG5rQlZ1y_DBG-ehzpFLWvZqDT7RRwcgJYxw/viewform?usp=sf_link)
-
-Submissions open at 00:00 on Tuesday, 26 May 2020. 
-
-Submissions close at 23:59 on Tuesday, 26 May 2020.
-
-
-
-
-
-
-
-
-
-[Vector Calculus Quiz(Click Here)](https://docs.google.com/forms/d/e/1FAIpQLSesWlutMbkaeOw6tuJjrAcFf6P42kbI6QOfKEqbcyfNWfaNHw/viewform?usp=sf_link)
-
-Submissions open at 00:00 on Tuesday, 5 May 2020. 
-
-Submissions close at 23:59 on Tuesday, 5 May 2020.
-
-***
-
-***
-[Linear Algebra: Solved problems](https://spark.adobe.com/page/7jrCE8B0vNMtf/)
-
-[Ordinary Differential Equations: Solved problems](https://spark.adobe.com/page/cM5VA7oCN0raT/)
-
-[Vector Calculus: Solved Problems](https://spark.adobe.com/page/UTENv8xUsl6Es/)
-
-[Laplace Transforms ](https://spark.adobe.com/page/atrXte6NsipNh/)
-
 
 
 ***
 
 
 
-```{r echo=FALSE}
-library(readxl)
-cw122b<- read_excel("1212020cw2.xlsx")
-library(DT)
-```
-
-
-```{r echo=FALSE}
-library(readxl)
-cw122<- read_excel("1212020cw.xlsx")
-```
-
-
-
-
-
-```{r echo=FALSE}
-library(readxl)
-cw121final<- read_excel("cw121finalxx.xlsx")
-library(DT)
-datatable(cw121final, rownames = FALSE,caption = 'For quick access, type your surname in the search box.',  options = list(order = list(list(1, 'asc')),pageLength = 100, scrollX=T,columnDefs=list(list(targets=7,visible=FALSE),list(className = 'dt-center', targets = 1:8))) ) %>%
-  formatStyle(
-    'Quiz_1',
-    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
-  formatPercentage('Quiz_1', 0)%>%
-  formatStyle(
-    'Quiz_2',
-    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
-  formatPercentage('Quiz_2', 0)%>%
-  formatStyle(
-    'Quiz_3',
-    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
-  formatPercentage('Quiz_3', 0)%>%
-  formatStyle(
-    'Quiz_4',
-    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
-  formatPercentage('Quiz_4', 0)%>%
-  formatStyle(
-    'CW',
-    color = styleInterval(c(49.5, 75), c('red', 'black', 'green')), fontWeight = 'bold') 
-```
 
 
 
@@ -103,41 +24,15 @@ datatable(cw121final, rownames = FALSE,caption = 'For quick access, type your su
 
 
 
-**Note:** Quizzes  are compulsory and will contribute to your final coursework mark.
-<center>
-
-***
 
 
 
 
 
 
-### Course Content
-(@) Linear Algebera
-(@) Ordinary Differential Equations
-(@) Vector Calculus
-(@) Laplace Transforms
 
-[Course Outline (pdf)](https://drive.google.com/file/d/1YTM2qJU8BMlOpyXgHQxKCzXpT6_iHT0F/view?usp=sharing)
 
-### Lecture Notes
 
-[Linear Algebra I](https://drive.google.com/file/d/1djpop6x1BY1wN7lPyhQRthUcFcjGxJwL/view?usp=sharing)
-
-[Linear Algebra II](https://drive.google.com/file/d/1wtGffPnOoLBvV5tZgAkNUJ6pw5QxxdAs/view?usp=sharing)
-
-[Laplace Transforms](https://drive.google.com/file/d/1feoB6yBJ9zSPkRDRn_ec2XDMwue1LDcC/view?usp=sharing)
-
-[Ordinary Differential Equations I](https://drive.google.com/file/d/1YT8uUMDoNXOC0_B0VOKAGCAntD8KKCUo/view?usp=sharing)
-
-[Ordinary Differential Equations II](https://drive.google.com/file/d/1ZgyyM8xoNpQIhZgidEiHnwgkkaXGxEUs/view?usp=sharing)
-
-[Ordinary Differential Equations III](https://drive.google.com/file/d/1epZNoi3RZFoSmJxAZ9ZteXXCoVncA8ME/view?usp=sharing)
-
-[Vector Calculus I](https://drive.google.com/file/d/1DaNG9UAFp86MZFsuX0J9iT9wqPr_nXUi/view?usp=sharing)
-
-[Vector Calculus II](https://drive.google.com/file/d/15UUpb82LWWbLsRkXt05V_j-ge30rXCYW/view?usp=sharing)
 
 
 ### Books
