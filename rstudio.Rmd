@@ -26,11 +26,9 @@ R, like S, is designed around a true computer language, and it allows users to a
 [Click Here to download R](https://cran.r-project.org/mirrors.html)
 
 ***
- [Rstudio: Number Theory](rs2.html)
  
- [Rstudio: Linear Algebra](rs1.html)
  
-  [Rstudio: Linear Programming](lpp.html)
+ 
 
 ### Rstudio
 
@@ -42,15 +40,32 @@ RStudio is available in **open source** and **commercial** editions and runs on 
 
  
 ***
- [Rstudio: Number Theory](rs2.html)
- 
- [Rstudio: Linear Algebra](rs1.html)
- 
-### Mathematics
-R includes an extensive set of built-in math functions. In addition to the built-in functions there are also many packages that can be used. Click the links below for further information.
 
- [Number Theory](rs2.html)
- 
- [ Linear Algebra](rs1.html)
+
+### Number Theory
+
+#### HTML files
+(@) [Number Theory](rs2.html)
+
+#### YouTube Videos
+
+1. [Relations](https://youtu.be/OcsImJ36r_E)
+2. [Sets](https://youtu.be/5kkMNfGK6So)
+
+### Linear Algebra
+
+[ Linear Algebra](rs1.html) 
+
+### Statistics
+
+1. [One Sample t-test](https://youtu.be/e15hPTO5aYs) 
+2. [Descriptive Statistics](https://youtu.be/2jkzMwT0ZH0)
+
+### Operations Reseaarch
+
+#### HTML files
+
+1. [Linear Programming](lpp.html)
+
  
  
