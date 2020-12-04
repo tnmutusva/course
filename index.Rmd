@@ -60,6 +60,8 @@ footnote( symbol = c("Tests/Quizzes are compulsory."))
 ### **ICS/IIT/ISE 114**
 [Foundations of Mathematics (click here)](https://spark.adobe.com/page/AbvajQfhXv91p/)
 
+[Test 3 (click here)](https://docs.google.com/forms/d/e/1FAIpQLSfGdcTr8l_D-baQEee8wzHlY5q9PXLp-a_0-Hb-uzhwsgdZEA/viewform?usp=sf_link)
+
 ### **ICS/ISE 215**
 [Operation Research (click here)](https://spark.adobe.com/page/J9EVeozp5LDhh/)
 
