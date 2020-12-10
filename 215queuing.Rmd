@@ -11,7 +11,7 @@ output:
       
   
 ---
-## Queueing Models
+## **Queueing Models**
 
 A queuing model is characterized by:
 
