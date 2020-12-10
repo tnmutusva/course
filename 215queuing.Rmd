@@ -11,4 +11,11 @@ output:
       
   
 ---
-This page will be updated soon!
+## Queueing Models
+
+A queuing model is characterized by:
+
+
+1. The arrival process of customers.
+Usually we assume that the interarrival times are independent and have a common distri- bution. In many practical situations customers arrive according to a Poisson stream (i.e. exponential interarrival times). Customers may arrive one by one, or in batches. An ex- ample of batch arrivals is the customs office at the border where travel documents of bus passengers have to be checked.
+2. The behaviour of customers. Customers may be patient and willing to wait (for a long time). Or customers may be impatient and leave after a while. For example, in call centers,customers will hang up when they have to wait too long before an operator is available, and they possibly try again after a while.
