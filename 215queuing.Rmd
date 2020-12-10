@@ -19,3 +19,14 @@ A queuing model is characterized by:
 1. The arrival process of customers.
 Usually we assume that the interarrival times are independent and have a common distri- bution. In many practical situations customers arrive according to a Poisson stream (i.e. exponential interarrival times). Customers may arrive one by one, or in batches. An ex- ample of batch arrivals is the customs office at the border where travel documents of bus passengers have to be checked.
 2. The behaviour of customers. Customers may be patient and willing to wait (for a long time). Or customers may be impatient and leave after a while. For example, in call centers,customers will hang up when they have to wait too long before an operator is available, and they possibly try again after a while.
+3. The service times. Usually we assume that the service times are independent and identically distributed, and that they are independent of the interarrival times. For example, the service times can be deterministic or exponentially distributed. It can also occur that service times are dependent of the queue length. For example, the processing rates of the machines in a production system can be increased once the number of jobs waiting to be processed becomes too large.
+4. The service discipline. Customers can be served one by one or in batches. We have many possibilities for the order in which they enter service. We mention:
+- first come first served, i.e. in order of arrival,
+- random order
+- last come first served (e.g. in a computer stack or a shunt buffer in a production line);
+- priorities (e.g. rush orders first, shortest processing time first);
+- processor sharing (in computers that equally divide their processing power over all jobs in the system).
+5. The service capacity.
+There may be a single server or a group of servers helping the customers.
+
+Kendall introduced a shorthand notation to characterize a range of these queueing models. It is a three-part code a/b/c. The first letter specifies the interarrival time distribution and the second one the service time distribution. For example, for a general distribution the letter G is used, M for the exponential distribution (M stands for Memoryless) and D for deterministic times. The third and last letter specifies the number of servers. Some examples are M/M/1, M/M/c, M/G/1, G/M/1 and M/D/1. The notation can be extended with an extra letter to cover other queueing models. For example, a system with exponential interarrival and service times, one server and having waiting room only for N customers (including the one in service) is abbreviated by the four letter code M/M/1/N.
