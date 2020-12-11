@@ -71,6 +71,7 @@ footnote( symbol = c("Tests/Quizzes are compulsory."))
 ### **SST 216**
 [Biostatistics (click here)](https://spark.adobe.com/page/doqx2cHBZFQQ4/)
 
+[Confidence Intevals: Example 1](https://youtu.be/86AEZcaIgJo)
 
 ### **HIT 121**
 [HIT 121: Engineering Mathematics II](hit121.html)
