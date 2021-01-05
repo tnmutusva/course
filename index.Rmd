@@ -65,7 +65,10 @@ footnote( symbol = c("Tests/Quizzes are compulsory."))
 ### **ICS/ISE 215**
 [Operation Research (click here)](https://spark.adobe.com/page/J9EVeozp5LDhh/)
 
+
 [Decision Analysis Quiz](https://docs.google.com/forms/d/e/1FAIpQLSeYgt2Guzfy1g7jMJmW_GzE8PVBp-50DpEdSN8Nh53lmMrqwA/viewform?usp=sf_link)
+
+[Quiz 2 (click here)](https://docs.google.com/forms/d/e/1FAIpQLSdGGDSPfRo-VCLPNTq0DJwVjDa_CsVezxQYb3iykfNURwPOKg/viewform?usp=sf_link)
 
 
 ### **SST 216**
