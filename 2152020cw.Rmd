@@ -19,7 +19,7 @@ For fast access, type your surname in the search box.
 library(readxl)
 cw126<- read_excel("2152020cw.xlsx")
 library(DT)
-datatable(cw126, rownames = FALSE,  options = list(pageLength = 100, scrollX=T,columnDefs=list(list(targets=2,visible=TRUE),list(className = 'dt-center', targets = 1:4))) )%>%
+datatable(cw126, rownames = FALSE,  options = list(pageLength = 100, scrollX=T,columnDefs=list(list(targets=2,visible=TRUE),list(className = 'dt-center', targets = 1:7))) )%>%
   formatStyle(
     'AS1',
     color = styleInterval(c(0.49, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
