@@ -55,15 +55,14 @@ footnote( symbol = c("Tests/Quizzes are compulsory."))
 
 
 ### **HIT 113**
-[Mathematics For Technologists I (click here)](https://spark.adobe.com/page/ZoaxLXcmsEkkV/)
 
 ### **ICS/IIT/ISE 114**
-[Foundations of Mathematics (click here)](https://spark.adobe.com/page/AbvajQfhXv91p/)
+
 
 [Test 3 (click here)](https://docs.google.com/forms/d/e/1FAIpQLSfGdcTr8l_D-baQEee8wzHlY5q9PXLp-a_0-Hb-uzhwsgdZEA/viewform?usp=sf_link)
 
 ### **ICS/ISE 215**
-[Operation Research (click here)](https://spark.adobe.com/page/J9EVeozp5LDhh/)
+
 
 
 [Decision Analysis Quiz](https://docs.google.com/forms/d/e/1FAIpQLSeYgt2Guzfy1g7jMJmW_GzE8PVBp-50DpEdSN8Nh53lmMrqwA/viewform?usp=sf_link)
@@ -72,7 +71,7 @@ footnote( symbol = c("Tests/Quizzes are compulsory."))
 
 
 ### **SST 216**
-[Biostatistics (click here)](https://spark.adobe.com/page/doqx2cHBZFQQ4/)
+
 
 [Confidence Intevals: Example 1](https://youtu.be/86AEZcaIgJo)
 
