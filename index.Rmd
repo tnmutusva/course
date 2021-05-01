@@ -54,38 +54,3 @@ footnote( symbol = c("Tests/Quizzes are compulsory."))
 </center>
 
 
-### **HIT 113**
-
-### **ICS/IIT/ISE 114**
-
-
-[Test 3 (click here)](https://docs.google.com/forms/d/e/1FAIpQLSfGdcTr8l_D-baQEee8wzHlY5q9PXLp-a_0-Hb-uzhwsgdZEA/viewform?usp=sf_link)
-
-### **ICS/ISE 215**
-
-
-
-[Decision Analysis Quiz](https://docs.google.com/forms/d/e/1FAIpQLSeYgt2Guzfy1g7jMJmW_GzE8PVBp-50DpEdSN8Nh53lmMrqwA/viewform?usp=sf_link)
-
-[Quiz 2 (click here)](https://docs.google.com/forms/d/e/1FAIpQLSdGGDSPfRo-VCLPNTq0DJwVjDa_CsVezxQYb3iykfNURwPOKg/viewform?usp=sf_link)
-
-
-### **SST 216**
-
-
-[Confidence Intevals: Example 1](https://youtu.be/86AEZcaIgJo)
-
-### **HIT 121**
-[HIT 121: Engineering Mathematics II](hit121.html)
-
-### **HIT 122**
-[HIT 122: Mathematics For Technologists II](hit122.html)
-
-### **ISS 126**
-[ISS 126: Number Theory](iss126.html)
-
-### **ICS 226**
-[ICS 226/ISE 225: Numerical Analysis](ics225.html)
-
-
-
