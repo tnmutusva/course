@@ -34,11 +34,11 @@ datatable(cw21022021, rownames = FALSE,  options = list(pageLength = 100, scroll
   formatPercentage('Quiz_1', 0)%>%
 formatStyle(
     'Test_1',
-    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.495, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('Test_1', 0)%>%
   formatStyle(
     'Test_2',
-    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.495, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('Test_2', 0)%>%
     formatStyle(
     'Test_3',
