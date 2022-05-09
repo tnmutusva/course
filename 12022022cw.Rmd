@@ -28,7 +28,7 @@ For absence on grounds other than health, prior permission from the Dean on the 
 library(readxl)
 cw12022022<- read_excel("cw12022022.xlsx")
 library(DT)
-datatable(cw12022022, rownames = FALSE,  options = list(pageLength = 100, scrollX=T,columnDefs=list(list(targets=2,visible=TRUE),list(className = 'dt-center', targets = 1:4))) )%>%
+datatable(cw12022022, rownames = FALSE,  options = list(pageLength = 100, scrollX=T,columnDefs=list(list(targets=2,visible=TRUE),list(className = 'dt-center', targets = 1:7))) )%>%
   formatStyle(
     'Test_1',
     color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
