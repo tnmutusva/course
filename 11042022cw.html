@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159360766-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-159360766-1');
+</script>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>1104: Coursework Marks</title>
+
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="site_libs/datatables-binding-0.23/datatables.js"></script>
+<link href="site_libs/dt-core-1.11.3/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="site_libs/dt-core-1.11.3/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="site_libs/dt-core-1.11.3/js/jquery.dataTables.min.js"></script>
+<link href="site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+
+<meta name="description" content="Turn your analyses into high quality documents, reports, presentations and dashboards with R Markdown. Use a productive notebook interface to weave together narrative text and code to produce elegantly formatted output. Use multiple languages including R, Python, and SQL. R Markdown supports a reproducible workflow for dozens of static and dynamic output formats including HTML, PDF, MS Word, Beamer, HTML5 slides, Tufte-style handouts, books, dashboards, shiny applications, scientific articles, websites, and more." />
+
+<link rel="icon" type="image/png" href="images/favicon.png" />
+
+<script type="text/javascript" src="js/redirect.js"></script>
+<script type="text/javascript" src="js/rmarkdown.js"></script>
+<script type="text/javascript" src="js/ga.js"></script>
+
+
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="css/rmarkdown.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div id="rStudioHeader" class="alwaysShrunk">
+  <div class="innards bandContent">
+    <div>
+             <div class="logos"><img src="trhit.png" width="150px"></div>
+    </div>
+
+    <div id="menu">
+      <div id="menuToggler"></div>
+      <div id="menuItems">
+        <a class="menuItem" href="rstudio.html">RStudio</a>
+        <a class="menuItem" href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style type="text/css">
+#TOC {
+  margin-left: 35px;
+  margin-top: 90px;
+}
+</style>
+
+<script type="text/javascript">
+$(".main-container").removeClass("main-container").removeClass("container-fluid").addClass("footerPushDown");
+</script>
+
+
+<div id="pageContent" class="standardPadding">
+  <div class="articleBandContent">
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">1104: Coursework Marks</h1>
+
+</div>
+
+
+<p><strong>Academic Regulations.</strong></p>
+<p>A student, who fails to attend 80% of the classes as prescribed in a
+course automatically disqualifies herself/himself from sitting
+examinations in that course.</p>
+<p>If a student is unable to attend classes for health reasons for
+longer than 72 hours, he/she must notify the appropriate department of
+the facts as soon as possible and submit certification in support
+thereof by a medical practitioner registered in accordance with the
+Medical, Dental and Allied Health Professions Act and any other relevant
+Acts.</p>
+<p>For absence on grounds other than health, prior permission from the
+Dean on the recommendation of the Chairperson of Department concerned is
+needed.</p>
+<div id="htmlwidget-bef32c55ff274228a146" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-bef32c55ff274228a146">{"x":{"filter":"none","vertical":false,"data":[["Bhebhe","Bhero","Buwerimwe","Bvure","Chademuviri","Chadzinga","Chakwizira","Chandiringa","Changachirere","Charakupauuu","Chengeta","Chiduku","Chigwa","Chikeya","Chikowore","Chiku","Chikukwa","Chikwanda","Chimonyo","Chimwe","Chimwendo","Chinoda","Chinomona","Chinyere","Chipare","Chirima","Chirume","Chivaraidze","Choeni","Dahwa","Dahwa","Debwe","Dhihwa","Dube","Dziro","Femayi","Gavi","Gaviro","Gayahaya","Gemu","Gonamombe","Gwaze","Gwekwe","James","January","Jongwedzvuku","Kahari","Kamanga","Kanyuchi","Kapungu","Kasima","Kasukusa","Kativu","Kaunye","Kavambe","Kondo","Kubiku","Machaya","Machona","Madanire","Madhumira","Madzore","Magara","Magosi","Mahachi","Mahoko","Mahosp","Makudo","Makura","Mandishe","Mandisodza","Manenji","Mango","Mapeta","Mapfumo","Mapindani","Maquee","Marwizi","Mashiri","Mashoko","Mataka","Matanga","Matanga","Matenda","Matewa","Matsanamure","Mavenga","Mawoyo","Mharakurwa","Mhlanga","Midzi","Mombe","Moyo","Mubayiwa","Mubvuringi","Muchinako","Muduwa","Mudzingwa","Mudzori","Mugabe","Mugero","Mujaku","Mukarakate","Murire","Murombedzi","Musamira","Musara","Musarurwa","Mushava","Mushayapokuvaka","Musindo","Mutambudzi","Muteera","Mutenanhene","Mutero","Mutori","Mutsiwa","Mutswe","Muzite","Mwandiambira","Mwarewangepo","Mwarumba","Ndaradzi","Ndlovu","Nyamabande","Nyamarebvu","Nyawiri","Paradzai","Parowa","Pedzisayi","Pelemba","Pfupajena","Phiri","Rafomoyo","Runganga","Rupinya","Rusike","Rusimo","Sadomba","Sandi","Saunyama","Sibanda","Sibve","Sikosana","Simon","Tagara","Tamayi","Tinorwirashe","Tsvangirai","Tsveta","Varaigwai","Zikali","Zimunhu","Zinyembe"],["H220455R@hit.ac.zw","H220546M@hit.ac.zw","H220185Z@hit.ac.zw","H220312A@hit.ac.zw","H220008E@hit.ac.zw","H220142H@hit.ac.zw","H220323W@hit.ac.zw","h180187t@hit.ac.zw","H220157R@hit.ac.zw","H220013Y@hit.ac.zw","H220456T@hit.ac.zw","H220239E@hit.ac.zw","H220396Z@hit.ac.zw","H220538A@hit.ac.zw","H220096J@hit.ac.zw","H220351Y@hit.ac.zw","H220135C@hit.ac.zw","H220424E@hit.ac.zw","H220141M@hit.ac.zw","H220345Y@hit.ac.zw","H220416V@hit.ac.zw","H220302Q@hit.ac.zw","H220662T@hit.ac.zw","h220670z@hit.ac.zw","H220303N@hit.ac.zw","H220091Z@hit.ac.zw","h210065z@hit.ac.zw","H220366V@hit.ac.zw","H220131R@hit.ac.zw","H220144F@hit.ac.zw","H220018Y@hit.ac.zw","H220476V@hit.ac.zw","H220075W@hit.ac.zw","H220283P@hit.ac.zw","H220023E@hit.ac.zw","H220202J@hit.ac.zw","H220431M@hit.ac.zw","H220218P@hit.ac.zw","H220494C@hit.ac.zw","H220582T@hit.ac.zw","H220084C@hit.ac.zw","H220343Y@hit.ac.zw","H220508Q@hit.ac.zw","H220349M@hit.ac.zw","H220045P@hit.ac.zw","H220038B@hit.ac.zw","H220480A@hit.ac.zw","H220052N@hit.ac.zw","H220379X@hit.ac.zw","H220281P@hit.ac.zw","H220413B@hit.ac.zw","H220042V@hit.ac.zw","H220153W@hit.ac.zw","H220094W@hit.ac.zw","H220230R@hit.ac.zw","H220122N@hit.ac.zw","H220152Q@hit.ac.zw","H220585W@hit.ac.zw","H220047M@hit.ac.zw","H220483J@hit.ac.zw","H220015F@hit.ac.zw","H220184Z@hit.ac.zw","H220392X@hit.ac.zw","H220187N@hit.ac.zw","H220421Y@hit.ac.zw","H220278F@hit.ac.zw","h200799c@hit.ac.zw","H220211V@hit.ac.zw","H220623Z@hit.ac.zw","H220315H@hit.ac.zw","H220063V@hit.ac.zw","H220019B@hit.ac.zw","H220316P@hit.ac.zw","H220550G@hit.ac.zw","H220004A@hit.ac.zw","H220133W@hit.ac.zw","H220313E@hit.ac.zw","H220427Q@hit.ac.zw","H220070V@hit.ac.zw","H220325F@hit.ac.zw","H220478P@hit.ac.zw","H220260C@hit.ac.zw","h180617h@hit.ac.zw","H220624V@hit.ac.zw","H220231W@hit.ac.zw","H220503P@hit.ac.zw","H220130J@hit.ac.zw","H220086F@hit.ac.zw","H220010Q@hit.ac.zw","h180134p@hit.ac.zw","H220564G@hit.ac.zw","H220462G@hit.ac.zw","H220204H@hit.ac.zw","H220516A@hit.ac.zw","H220183B@hit.ac.zw","H220449Q@hit.ac.zw","H220273W@hit.ac.zw","H220087E@hit.ac.zw","H220033G@hit.ac.zw","H220269E@hit.ac.zw","H220595W@hit.ac.zw","H220591F@hit.ac.zw","H220221G@hit.ac.zw","H220242Z@hit.ac.zw","H220348B@hit.ac.zw","H220418Y@hit.ac.zw","H220450T@hit.ac.zw","H220333Q@hit.ac.zw","H220320J@hit.ac.zw","H220311Y@hit.ac.zw","H220138M@hit.ac.zw","h210574b@hit.ac.zw","H220197V@hit.ac.zw","H220247A@hit.ac.zw","H220432X@hit.ac.zw","H220223N@hit.ac.zw","H220272P@hit.ac.zw","H220615W@hit.ac.zw","H220196A@hit.ac.zw","h220535v@hit.ac.zw","h220688a@hit.ac.zw","H220026H@hit.ac.zw","H220533P@hit.ac.zw","H220435X@hit.ac.zw","H220225C@hit.ac.zw","H220198F@hit.ac.zw","H220290G@hit.ac.zw","H220147B@hit.ac.zw","H220076E@hit.ac.zw","H220129A@hit.ac.zw","H220243A@hit.ac.zw","H220554M@hit.ac.zw","H220415J@hit.ac.zw","H220439A@hit.ac.zw","H220390X@hit.ac.zw","H220536M@hit.ac.zw","H220189E@hit.ac.zw","H220146J@hit.ac.zw","H220179T@hit.ac.zw","H220057B@hit.ac.zw","H220586J@hit.ac.zw","H220417Y@hit.ac.zw","H220553G@hit.ac.zw","H220250Q@hit.ac.zw","H220652T@hit.ac.zw","H220426Q@hit.ac.zw","H220072Y@hit.ac.zw","H220028G@hit.ac.zw","H220081X@hit.ac.zw","h210371h@hit.ac.zw","H220105E@hit.ac.zw","H220215E@hit.ac.zw","H220537B@hit.ac.zw","H220411Q@hit.ac.zw"],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Surname<\/th>\n      <th>Email address<\/th>\n      <th>Dept<\/th>\n      <th>AS_1<\/th>\n      <th>Test_1<\/th>\n      <th>Test_2<\/th>\n      <th>AS_2<\/th>\n      <th>Quiz_1<\/th>\n      <th>AS_3<\/th>\n      <th>CW<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":100,"scrollX":true,"columnDefs":[{"targets":9,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatPercentage(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":6,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatPercentage(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":5,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatPercentage(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":4,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatPercentage(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":3,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatPercentage(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":2,"visible":true},{"className":"dt-center","targets":[1,2,3,4,5,6,7]}],"order":[],"autoWidth":false,"orderClasses":false,"rowCallback":"function(row, data, displayNum, displayIndex, dataIndex) {\nvar value=data[3]; $(this.api().cell(row, 3).node()).css({'font-weight':'bold','color':isNaN(parseFloat(value)) ? '' : value <= 0.495 ? \"red\" : value <= 0.75 ? \"black\" : \"green\"});\nvar value=data[4]; $(this.api().cell(row, 4).node()).css({'font-weight':'bold','color':isNaN(parseFloat(value)) ? '' : value <= 0.495 ? \"red\" : value <= 0.75 ? \"black\" : \"green\"});\nvar value=data[5]; $(this.api().cell(row, 5).node()).css({'font-weight':'bold','color':isNaN(parseFloat(value)) ? '' : value <= 0.495 ? \"red\" : value <= 0.75 ? \"black\" : \"green\"});\nvar value=data[6]; $(this.api().cell(row, 6).node()).css({'font-weight':'bold','color':isNaN(parseFloat(value)) ? '' : value <= 0.495 ? \"red\" : value <= 0.75 ? \"black\" : \"green\"});\nvar value=data[9]; $(this.api().cell(row, 9).node()).css({'font-weight':'bold','color':isNaN(parseFloat(value)) ? '' : value <= 0.49 ? \"red\" : value <= 0.75 ? \"black\" : \"green\"});\n}"}},"evals":["options.columnDefs.0.render","options.columnDefs.1.render","options.columnDefs.2.render","options.columnDefs.3.render","options.columnDefs.4.render","options.rowCallback"],"jsHooks":[]}</script>
+
+  </div> <!-- articleBandContent -->
+</div> <!-- pageContent -->
+
+<div id="rStudioFooter" class="band full">
+<div class="bandContent">
+  <div id="copyright">Trevor. N. Mutusva, 2021 </div>
+  <div id="logos">
+       <a href="https://twitter.com/HitMathematics" class="footerLogo twitter"></a>
+        <a href="https://www.facebook.com/hitmathematics/" class="footerLogo facebook"></a>
+      </div>
+</div>
+</div>
+
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+</body>
+</html>
