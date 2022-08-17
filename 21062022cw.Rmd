@@ -34,9 +34,9 @@ datatable(cw21062022, rownames = FALSE,  options = list(pageLength = 100, scroll
     color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('AS_1', 0)%>%
 formatStyle(
-    'Test_1',
+    'Quiz_1',
     color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
-  formatPercentage('Test_1', 0)%>%
+  formatPercentage('Quiz_1', 0)%>%
   formatStyle(
     'Test_2',
     color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
