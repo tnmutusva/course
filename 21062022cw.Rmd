@@ -41,7 +41,11 @@ formatStyle(
     'Quiz_2',
     color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('Quiz_2', 0)%>%
-
+ formatStyle(
+    'Test_1',
+    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+  formatPercentage('Test_1', 0)%>%
+ 
   formatStyle(
     'Test_2',
     color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
