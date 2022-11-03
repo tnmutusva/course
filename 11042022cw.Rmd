@@ -23,6 +23,8 @@ For absence on grounds other than health, prior permission from the Dean on the 
 
 **CW=0.15(Best 2 assignments/Quiz)+0.35(TEST1+TEST2).**
 
+Class representatives can collect Test 2 scripts on Friday, 4 November at 10:15 from office W16.
+
 
 ```{r echo=FALSE}
 library(readxl)
