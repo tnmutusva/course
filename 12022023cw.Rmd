@@ -37,27 +37,27 @@ datatable(cw12022023, rownames = FALSE,  options = list(pageLength = 100, scroll
   formatPercentage('Test_1', 0)%>%
 formatStyle(
     'Test_2',
-    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.495, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('Test_2', 0)%>%
   formatStyle(
     'Test_3',
-    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.495, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('Test_3', 0)%>%
     formatStyle(
     'Test_4',
-    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.495, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('Test_4', 0)%>%
   formatStyle(
     'AS_1',
-    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.495, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('AS_1', 0)%>%
   formatStyle(
     'AS_2',
-    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.495, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('AS_2', 0)%>%
   formatStyle(
     'CW',
-    color = styleInterval(c(0.49, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.49, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('CW', 0)
   
 
