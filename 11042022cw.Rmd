@@ -21,43 +21,45 @@ If a student is unable to attend classes for health reasons for longer than 72 h
 
 For absence on grounds other than health, prior permission from the Dean on the recommendation of the Chairperson of Department concerned is needed.
 
-**CW=0.15(Best 2 assignments/Quiz)+0.35(TEST1+TEST2).**
+
 
 Class representatives can collect Test 2 scripts on Friday, 4 November at 10:15 from office W16.
 
 
+
 ```{r echo=FALSE}
 library(readxl)
-cw11042022<- read_excel("cw11042022.xlsx")
+cw21062022<- read_excel("cw21062022.xlsx")
 library(DT)
-datatable(cw11042022, rownames = FALSE,  options = list(pageLength = 100, scrollX=T,columnDefs=list(list(targets=2,visible=TRUE),list(className = 'dt-center', targets = 1:9))) )%>%
+datatable(cw21062022, rownames = FALSE,  options = list(pageLength = 100, scrollX=T,columnDefs=list(list(targets=2,visible=TRUE),list(className = 'dt-center', targets = 1:9))) )%>%
   formatStyle(
-    'AS_1',
-    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
-  formatPercentage('AS_1', 0)%>%
-formatStyle(
     'Test_1',
     color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('Test_1', 0)%>%
-  formatStyle(
+formatStyle(
     'Test_2',
     color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('Test_2', 0)%>%
-    formatStyle(
-    'AS_2',
-    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
-  formatPercentage('AS_2', 0)%>%
   formatStyle(
-    'AS_3',
+    'Test_3',
     color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
-  formatPercentage('AS_3', 0)%>%
-   formatStyle(
+  formatPercentage('Test_3', 0)%>%
+ formatStyle(
     'Quiz_1',
-    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.495, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('Quiz_1', 0)%>%
+ 
+  formatStyle(
+    'Quiz_2',
+    color = styleInterval(c(0.495, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+  formatPercentage('Quiz_2', 0)%>%
+    formatStyle(
+    'AS_1',
+    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+  formatPercentage('AS_1', 0)%>%
   formatStyle(
     'CW',
-    color = styleInterval(c(0.49, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.49, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('CW', 0)
   
 
