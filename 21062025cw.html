@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>2102/2106: Coursework Marks</title>
+
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet" />
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="site_libs/datatables-binding-0.33/datatables.js"></script>
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+<link href="site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet" />
+<script src="site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
+
+<meta name="description" content="Turn your analyses into high quality documents, reports, presentations and dashboards with R Markdown. Use a productive notebook interface to weave together narrative text and code to produce elegantly formatted output. Use multiple languages including R, Python, and SQL. R Markdown supports a reproducible workflow for dozens of static and dynamic output formats including HTML, PDF, MS Word, Beamer, HTML5 slides, Tufte-style handouts, books, dashboards, shiny applications, scientific articles, websites, and more." />
+
+<link rel="icon" type="image/png" href="images/favicon.png" />
+
+<script type="text/javascript" src="js/redirect.js"></script>
+<script type="text/javascript" src="js/rmarkdown.js"></script>
+<script type="text/javascript" src="js/ga.js"></script>
+
+
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="css/rmarkdown.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div id="rStudioHeader" class="alwaysShrunk">
+  <div class="innards bandContent">
+    <div>
+             <div class="logos"><img src="trhit.png" width="150px"></div>
+    </div>
+
+    <div id="menu">
+      <div id="menuToggler"></div>
+      <div id="menuItems">
+        <a class="menuItem" href="rstudio.html">RStudio</a>
+        <a class="menuItem" href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style type="text/css">
+#TOC {
+  margin-left: 35px;
+  margin-top: 90px;
+}
+</style>
+
+<script type="text/javascript">
+$(".main-container").removeClass("main-container").removeClass("container-fluid").addClass("footerPushDown");
+</script>
+
+
+<div id="pageContent" class="standardPadding">
+  <div class="articleBandContent">
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">2102/2106: Coursework Marks</h1>
+
+</div>
+
+
+<p><strong>Academic Regulations.</strong></p>
+<p>A student, who fails to attend 80% of the classes as prescribed in a
+course automatically disqualifies herself/himself from sitting
+examinations in that course.</p>
+<p>If a student is unable to attend classes for health reasons for
+longer than 72 hours, he/she must notify the appropriate department of
+the facts as soon as possible and submit certification in support
+thereof by a medical practitioner registered in accordance with the
+Medical, Dental and Allied Health Professions Act and any other relevant
+Acts.</p>
+<p>For absence on grounds other than health, prior permission from the
+Dean on the recommendation of the Chairperson of Department concerned is
+needed.</p>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-eb2ec0296e0a36defd23" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-eb2ec0296e0a36defd23">{"x":{"filter":"none","vertical":false,"data":[["Bobo","Bunhu","Charakupa","Chatsama","Chikwizo","Chitsva","Chivasa","Dunira","Gambiza Moyo","Garwe","Hama","HUHUYANA","Kahungwa","Kamhoti","Kanyera","Kanyoza","KATIYO","Mabgwe","Magede","Magorimbo","Malima","Maponga","Masanganise","Mashayahanya","MAZHINDU","Mlambo","Moloten","Mubaiwa","Muchini","Mugwede","Mukarati","Mukarati","Mukorera","Mulilima","Muvaka","Ndhlovu","Nechombo","Ngwenya","Nyakanyanga","NYATANGA","Patsanza","Pfereka","Ragu","Sheshe","Tavengwa","Tazviwana","Tsiga","Zaina","Chakunda","Chamboko","Chikandamina","Chikore","Chikudzuri","Chikumbu","CHIMASHA","CHINGWALU","CHIPURIRO","Chirwa","CHIWARA","Gamba","GUZHA","KANENGONI","Kaparipari","Letter","Madaka","Mafigu","Makamure","Makanyire","Mangondo","Masarirambi","MASUNDA","Maunganidze","Movha","Muchinapaya","Mudzva","MUGAVIRI","mukandi","MUKWARA","Murambwa","MURAMWI","Murudzwa","Mushapaidze","Mushayapokuvaka","Mushonga","Mwaenga","Nyange","Sandinga","Sekanewana","SHIRIHURU","Shumbayaonda","Tarasana"],["H240194P","H2401124M","H220013Y","H240243z","H240020J","H240014H","H240162Y","H240165R","H240299R","H240197J","H240131T","H240268H","H240329C","H240010J","H240219F","H240093R","H240500J","H240013H","H240231P","H220726Q","H240005W","H240196x","H240236M","H240249A","H240173M","H240381Z","H240297q","H240218F","H240260E","H240117H","H240318y","H240324M","H240156z","H170174G","H240105H","H240185G","H240330H","H240332Z","H240191A","H240281G","H240723P","H240029R","H240220J","H240203F","H240272M","H240325C","H240161F","H240266G","H240129V","H240648Q","H240412J","H240289Z","H240685R","H240404N","H240007N","H240334C","H240011N","H240575X","H240168G","H240309Y","H240358X","H240277N","H240775R","H240464x","H240557E","H240480M","H240224V","H240166g","H240088G","H240079C","H240006Y","H240287Z","H240410Y","H240572Y","H240379W","H240279H","H240004A","H240380W","H240215z","H240104Y","H240574G","H240206J","H220311Y","H240523Z","H240502G","H240570W","H240485V","H240576F","H240263N","H240125B","H240269f"],["HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HICS","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA","HISA"],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[0.34,0.28,0,0.47,0.38,0.45,0.26,0.34,0.38,0.19,0.38,0.47,0.32,0.38,0.34,0.68,0.72,0.64,0.28,0,0.62,0.04,0.49,0.36,0.55,0.43,0.19,0.62,0.47,0.28,0.09,0.06,0.47,0.13,0.36,0.21,0.55,0.23,0.43,0.51,0,0.26,0.34,0.36,0.11,0.3,0.6899999999999999,0.32,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Surname<\/th>\n      <th>Reg<\/th>\n      <th>Dept<\/th>\n      <th>Quiz_1<\/th>\n      <th>Quiz_2<\/th>\n      <th>Quiz_3<\/th>\n      <th>Test_1<\/th>\n      <th>Test_2<\/th>\n      <th>Test_3<\/th>\n      <th>AS_1<\/th>\n      <th>CW<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":100,"scrollX":true,"columnDefs":[{"targets":10,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatPercentage(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":9,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatPercentage(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":4,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatPercentage(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":3,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatPercentage(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":8,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatPercentage(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":7,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatPercentage(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":6,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatPercentage(data, 0, 3, \",\", \".\", null);\n  }"},{"targets":2,"visible":true},{"className":"dt-center","targets":[1,2,3,4,5,6,7,8,9]},{"name":"Surname","targets":0},{"name":"Reg","targets":1},{"name":"Dept","targets":2},{"name":"Quiz_1","targets":3},{"name":"Quiz_2","targets":4},{"name":"Quiz_3","targets":5},{"name":"Test_1","targets":6},{"name":"Test_2","targets":7},{"name":"Test_3","targets":8},{"name":"AS_1","targets":9},{"name":"CW","targets":10}],"order":[],"autoWidth":false,"orderClasses":false,"rowCallback":"function(row, data, displayNum, displayIndex, dataIndex) {\nvar value=data[6]; $(this.api().cell(row, 6).node()).css({'font-weight':'bold','color':isNaN(parseFloat(value)) ? '' : value <= 0.495 ? \"red\" : value <= 0.75 ? \"black\" : \"green\"});\nvar value=data[7]; $(this.api().cell(row, 7).node()).css({'font-weight':'bold','color':isNaN(parseFloat(value)) ? '' : value <= 0.495 ? \"red\" : value <= 0.75 ? \"black\" : \"green\"});\nvar value=data[8]; $(this.api().cell(row, 8).node()).css({'font-weight':'bold','color':isNaN(parseFloat(value)) ? '' : value <= 0.495 ? \"red\" : value <= 0.75 ? \"black\" : \"green\"});\nvar value=data[3]; $(this.api().cell(row, 3).node()).css({'font-weight':'bold','color':isNaN(parseFloat(value)) ? '' : value <= 0.495 ? \"red\" : value <= 0.745 ? \"black\" : \"green\"});\nvar value=data[4]; $(this.api().cell(row, 4).node()).css({'font-weight':'bold','color':isNaN(parseFloat(value)) ? '' : value <= 0.495 ? \"red\" : value <= 0.745 ? \"black\" : \"green\"});\nvar value=data[9]; $(this.api().cell(row, 9).node()).css({'font-weight':'bold','color':isNaN(parseFloat(value)) ? '' : value <= 0.495 ? \"red\" : value <= 0.75 ? \"black\" : \"green\"});\nvar value=data[10]; $(this.api().cell(row, 10).node()).css({'font-weight':'bold','color':isNaN(parseFloat(value)) ? '' : value <= 0.49 ? \"red\" : value <= 0.745 ? \"black\" : \"green\"});\n}"}},"evals":["options.columnDefs.0.render","options.columnDefs.1.render","options.columnDefs.2.render","options.columnDefs.3.render","options.columnDefs.4.render","options.columnDefs.5.render","options.columnDefs.6.render","options.rowCallback"],"jsHooks":[]}</script>
+
+  </div> <!-- articleBandContent -->
+</div> <!-- pageContent -->
+
+<div id="rStudioFooter" class="band full">
+<div class="bandContent">
+  <div id="copyright">Trevor. N. Mutusva, 2021 </div>
+  <div id="logos">
+       <a href="https://twitter.com/HitMathematics" class="footerLogo twitter"></a>
+        <a href="https://www.facebook.com/hitmathematics/" class="footerLogo facebook"></a>
+      </div>
+</div>
+</div>
+
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+</body>
+</html>
