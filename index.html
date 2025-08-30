@@ -3,17 +3,15 @@
 <html>
 
 <head>
-  <script data-ad-client="ca-pub-6439481059458578" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159360766-1"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SCBWZSGPDJ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-159360766-1');
+  gtag('config', 'G-SCBWZSGPDJ');
 </script>
-
 
 <meta charset="utf-8" />
 <meta name="generator" content="pandoc" />
@@ -22,26 +20,39 @@
 
 
 
-<title>HIT Mathematics</title>
+<title>Harare Maths</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
-<meta name="description" content="Harare Maths" />
+<meta name="description" content="Turn your analyses into high quality documents, reports, presentations and dashboards with R Markdown. Use a productive notebook interface to weave together narrative text and code to produce elegantly formatted output. Use multiple languages including R, Python, and SQL. R Markdown supports a reproducible workflow for dozens of static and dynamic output formats including HTML, PDF, MS Word, Beamer, HTML5 slides, Tufte-style handouts, books, dashboards, shiny applications, scientific articles, websites, and more." />
 
 <link rel="icon" type="image/png" href="images/favicon.png" />
 
 <script type="text/javascript" src="js/redirect.js"></script>
 <script type="text/javascript" src="js/rmarkdown.js"></script>
 <script type="text/javascript" src="js/ga.js"></script>
+
+
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -50,14 +61,10 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-      </style>
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -70,32 +77,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 <link rel="stylesheet" href="css/rmarkdown.css" type="text/css" />
 
@@ -106,10 +89,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -126,6 +105,12 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
@@ -138,13 +123,12 @@ summary {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -152,16 +136,9 @@ summary {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -205,13 +182,13 @@ summary {
 <div id="rStudioHeader" class="alwaysShrunk">
   <div class="innards bandContent">
     <div>
-             <div class="logos"><img src="trhit.png" width="150px"></div>
+             <div class="logos"><img src="hm.png" width="150px"></div>
     </div>
 
     <div id="menu">
       <div id="menuToggler"></div>
       <div id="menuItems">
-        <a class="menuItem" href="rstudio.html">RStudio</a>
+        <a class="menuItem" href="https://new.express.adobe.com/webpage/bXN6Vo2fW94ay?">Maths Computing</a>
         <a class="menuItem" href="contact.html">Contact</a>
       </div>
     </div>
@@ -241,31 +218,32 @@ $(".main-container").removeClass("main-container").removeClass("container-fluid"
   display: none;
 }
 </style>
+
 <div class="lessonPage">
   <div class="lessonsNav">
-     <a id="nav-lesson-5" href="https://spark.adobe.com/page/ZoaxLXcmsEkkV/">HIT 113: Mathematics For Technologists I</a>
-     <a id="nav-lesson-5" href="https://spark.adobe.com/page/AbvajQfhXv91p/">ICS/IIT/ISE 114: Foundations of Mathematics</a>
-     <a id="nav-lesson-6" href="https://spark.adobe.com/page/J9EVeozp5LDhh/">ICS/ISE 215: Operations Research</a>
-     <a id="nav-lesson-5" href="https://spark.adobe.com/page/doqx2cHBZFQQ4/">SST 216: Biostatistics</a>
-
+     <a id="nav-lesson-5" href="https://www.youtube.com/@HarareMaths">YouTube Channel</a>
+     
      </div>
   <div class="lessonContent">
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
-<h1 class="title toc-ignore">HIT Mathematics</h1>
+<h1 class="title toc-ignore">Harare Maths</h1>
 
 </div>
 
 
-<div id="hit-mathematics" class="section level2 tabset tabset-fade">
-<h2><strong>HIT Mathematics</strong></h2>
+<div id="harare-maths" class="section level2 tabset tabset-fade">
+<h2 class="tabset tabset-fade"><strong>Harare Maths</strong></h2>
 <div id="notices" class="section level3">
 <h3><span style="color:orange"> <strong>Notices</strong></h3>
-<p>Assessment for the courses shall be based on continuous assessment as well as Institute examinations. Continuous assessment will contribute 25% of the overall assessment mark of that course. Continuous assessment dates are as follows:</p>
-<table class="table table-striped table-hover table-responsive" style="margin-left: auto; margin-right: auto;">
+<p>Assessment for the courses shall be based on continuous assessment as
+well as Institute examinations. Continuous assessment will contribute
+25% of the overall assessment mark of that course. Continuous assessment
+dates are as follows:</p>
+<table class="table table-striped table-hover table-responsive" style="margin-left: auto; margin-right: auto;border-bottom: 0;">
 <thead>
 <tr>
 <th style="text-align:left;">
@@ -357,7 +335,7 @@ Online
 </tbody>
 <tfoot>
 <tr>
-<td style="padding: 0; border: 0;" colspan="100%">
+<td style="padding: 0; " colspan="100%">
 <sup>*</sup> Tests/Quizzes are compulsory.
 </td>
 </tr>
@@ -365,11 +343,12 @@ Online
 </table>
 <hr />
 <center>
-<img src="covid.jpg" style="width:100.0%" />
+<img src="hmaths.jpeg" style="width:100.0%" />
 </center>
 <hr />
 <center>
-<a href="https://rstudio.com"><img src="logoRStudio.png" style="width:8.0%" /></a>
+<a href="https://rstudio.com"><img src="logoRStudio.png"
+style="width:8.0%" /></a>
 </center>
 <center>
 <img src="rmarkdownlogo.png" style="width:25.0%" />
@@ -398,13 +377,15 @@ Online
 
 <div id="rStudioFooter" class="band full">
 <div class="bandContent">
-  <div id="copyright">Trevor. N. Mutusva, 2021 </div>
+  <div id="copyright">Trevor. N. Mutusva, 2025 </div>
   <div id="logos">
        <a href="https://twitter.com/HitMathematics" class="footerLogo twitter"></a>
-        <a href="https://www.facebook.com/hitmathematics/" class="footerLogo facebook"></a>
+        <a href="https://www.facebook.com/hararemaths" class="footerLogo facebook"></a>
       </div>
 </div>
 </div>
+
+
 
 
 
@@ -414,7 +395,7 @@ Online
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -432,7 +413,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
