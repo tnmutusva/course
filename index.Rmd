@@ -1,5 +1,5 @@
 ---
-title: "HIT Mathematics"
+title: "Harare Maths"
 output:
   html_document:
     toc_float: false
@@ -10,7 +10,7 @@ output:
 
 
 
-## **HIT Mathematics** {.tabset .tabset-fade}
+## **Harare Maths** {.tabset .tabset-fade}
 
 
 
@@ -30,7 +30,7 @@ footnote( symbol = c("Tests/Quizzes are compulsory."))
 
 *** 
 <center>
-![](covid.jpg){ width=100% }
+![](hmaths.jpeg){ width=100% }
 </center>
 
 
