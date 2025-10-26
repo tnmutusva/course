@@ -56,6 +56,10 @@ formatStyle(
     'AS_2',
     color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('AS_2', 0)%>%
+  formatStyle(
+    'AS_3',
+    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+  formatPercentage('AS_3', 0)%>%
   
   formatStyle(
     'CW',
