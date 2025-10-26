@@ -1,5 +1,5 @@
 ---
-title: 'ICC 7116: Coursework Marks'
+title: 'ICC 7116/IBA 7101: Coursework Marks'
 output:
   pdf_document: default
   html_document:
