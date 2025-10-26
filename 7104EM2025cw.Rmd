@@ -1,5 +1,5 @@
 ---
-title: 'EMPD 7104/EIA 7101: Coursework Marks'
+title: 'EMPD 7104/EIA 7101/IBA 7101/ICC 7116: Coursework Marks'
 output:
   pdf_document: default
   html_document:
