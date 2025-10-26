@@ -21,7 +21,7 @@ output:
 library(readxl)
 cw21062023<- read_excel("cw21062023.xlsx")
 library(DT)
-datatable(cw21062023,class = 'cell-border stripe', rownames = FALSE,  options = list(pageLength = 100, scrollX=T,columnDefs=list(list(targets=2,visible=TRUE),list(className = 'dt-center', targets = 1:9))) )%>%
+datatable(cw21062023,class = 'cell-border stripe', rownames = FALSE,  options = list(pageLength = 100, scrollX=T,columnDefs=list(list(targets=2,visible=TRUE),list(className = 'dt-center', targets = 1:12))) )%>%
   formatStyle(
     'Test_1',
     color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
