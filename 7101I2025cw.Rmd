@@ -25,15 +25,15 @@ library(DT)
 datatable(cw11042022, class = 'cell-border stripe',rownames = FALSE,  options = list(pageLength = 100, scrollX=T,columnDefs=list(list(targets=2,visible=TRUE),list(className = 'dt-center', targets = 1:9))) )%>%
   formatStyle(
     'Test_1',
-    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.495, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('Test_1', 0)%>%
 formatStyle(
     'Test_2',
-    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.495, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('Test_2', 0)%>%
   formatStyle(
     'Test_3',
-    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.495, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('Test_3', 0)%>%
  formatStyle(
     'Quiz_1',
@@ -46,7 +46,7 @@ formatStyle(
   formatPercentage('Quiz_2', 0)%>%
     formatStyle(
     'AS_1',
-    color = styleInterval(c(0.495, 0.75), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+    color = styleInterval(c(0.495, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('AS_1', 0)%>%
   formatStyle(
     'CW',
