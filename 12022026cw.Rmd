@@ -48,6 +48,10 @@ formatStyle(
     'Q_3',
     color = styleInterval(c(0.495, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('Q_3', 0)%>%
+  formatStyle(
+    'Q_4',
+    color = styleInterval(c(0.495, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+  formatPercentage('Q_4', 0)%>%
  
     formatStyle(
     'AS_1',
