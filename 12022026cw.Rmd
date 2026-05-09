@@ -35,6 +35,15 @@ formatStyle(
     'T_3',
     color = styleInterval(c(0.495, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
   formatPercentage('T_3', 0)%>%
+  formatStyle(
+    'T_3',
+    color = styleInterval(c(0.495, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+  formatPercentage('T_3', 0)%>%
+   formatStyle(
+    'T_4',
+    color = styleInterval(c(0.495, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
+  formatPercentage('T_4', 0)%>%
+
  formatStyle(
     'Q_1',
     color = styleInterval(c(0.495, 0.745), c('red', 'black', 'green')), fontWeight = 'bold') %>%
